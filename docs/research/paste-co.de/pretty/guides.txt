@@ -1,0 +1,248 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground" href="/guides">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]">
+</span>Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset-tight min-h-screen px-4 pb-10 md:px-8 md:pb-14">
+<div class="mx-auto w-full max-w-[100rem]">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6 mb-8" style="opacity:0;transform:translateY(12px)">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/">
+<svg/>Archive</a>
+<div class="hidden h-8 w-px bg-wash/10 sm:block" aria-hidden="true">
+</div>
+<div class="min-w-0 flex-1">
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Guides</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">17 guides on game security, reverse engineering and modding, grouped by where they fit in the learning curve.</p>
+</div>
+</header>
+<div class="flex flex-col gap-8">
+<section aria-labelledby="track-start">
+<div class="mb-3 border-b border-border pb-2">
+<h2 id="track-start" class="text-sm font-semibold text-foreground">Start here<span class="ml-2 font-normal text-muted-foreground">4</span>
+</h2>
+<p class="mt-0.5 text-xs text-muted-foreground">Get a working toolchain and build something before going deeper.</p>
+</div>
+<div class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/compile">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">How to Compile Projects from Source</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Build</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Set up Visual Studio, configure Release/x64, and fix common MSB8020 and include errors.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/troubleshooting">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Troubleshooting Common Errors</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Help</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Fix MSB4062 ValidateNTTargetVersion, MSB8020, Nal is already in use, and WDK/SDK mismatch issues.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/cheat-engine-beginners">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Cheat Engine Tutorial for Beginners</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Tools</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">First scan, narrowing results, pointer scanning, freezing values, and creating a .CT table.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/dev-environment-setup">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Setting Up a Research Dev Environment</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Setup</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Visual Studio, Cheat Engine, x64dbg, IDA/Ghidra, test VM setup, and recommended project structure.</p>
+</a>
+</div>
+</section>
+<section aria-labelledby="track-memory">
+<div class="mb-3 border-b border-border pb-2">
+<h2 id="track-memory" class="text-sm font-semibold text-foreground">Memory &amp; offsets<span class="ml-2 font-normal text-muted-foreground">5</span>
+</h2>
+<p class="mt-0.5 text-xs text-muted-foreground">Locate structures, keep them working across patches, and read them from code.</p>
+</div>
+<div class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/updating-offsets">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Updating Game Offsets After a Patch</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Offsets</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Binary diffing, Cheat Engine rescanning, ReClass layout comparison, and pattern-based offset discovery.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/finding-offsets-reclass">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Finding Offsets with ReClass.NET</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Offsets</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Attach ReClass to a process, navigate struct layouts, identify data types, and export offset constants.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/basic-external-cheat-cpp">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Writing a Basic External Cheat in C++</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">C++</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">OpenProcess, ReadProcessMemory, WriteProcessMemory, finding module base — all the Windows API fundamentals.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/pattern-scanning">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Pattern Scanning in Game Memory</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Memory</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Generate AOB signatures, use wildcards, implement a C++ scanner with VirtualQuery, and cache results.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/python-game-memory">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Reading Game Memory with Python (pymem)</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Python</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Attach to a process, read ints/floats/Vec3, resolve pointer chains, and understand limitations vs C++.</p>
+</a>
+</div>
+</section>
+<section aria-labelledby="track-re">
+<div class="mb-3 border-b border-border pb-2">
+<h2 id="track-re" class="text-sm font-semibold text-foreground">Reverse engineering<span class="ml-2 font-normal text-muted-foreground">5</span>
+</h2>
+<p class="mt-0.5 text-xs text-muted-foreground">Read a binary you did not write, and understand what defends it.</p>
+</div>
+<div class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/x64dbg-reverse-engineering">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Using x64dbg for Reverse Engineering</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">RE</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Set hardware breakpoints, read disassembly, search memory, and automate analysis with x64dbg scripts.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/anti-cheat-overview">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">How Anti-Cheat Systems Work</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">AC</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">EasyAntiCheat, BattlEye, VAC, and kernel-level AC like Vanguard — what they detect and how.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/dll-injection-overview">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">DLL Injection Techniques Overview</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Research</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">LoadLibrary injection, manual mapping, SetWindowsHookEx, detection methods, and legitimate use cases.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/ida-ghidra-reverse-engineering">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">IDA Pro &amp; Ghidra for Game RE</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">RE</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Load a binary, use the decompiler, find functions via string xrefs, identify structs, annotate findings.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/anti-debugging-techniques">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Anti-Debugging Techniques Explained</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Research</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">IsDebuggerPresent, NtQueryInformationProcess, timing checks, TLS callbacks — how they work and are studied.</p>
+</a>
+</div>
+</section>
+<section aria-labelledby="track-kernel">
+<div class="mb-3 border-b border-border pb-2">
+<h2 id="track-kernel" class="text-sm font-semibold text-foreground">Kernel &amp; drivers<span class="ml-2 font-normal text-muted-foreground">3</span>
+</h2>
+<p class="mt-0.5 text-xs text-muted-foreground">Ring-0 work: building, signing and mapping drivers.</p>
+</div>
+<div class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/driver-compile">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Compiling Windows Kernel Drivers</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Driver</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Install the WDK, configure Visual Studio, and build a kernel driver with proper project settings.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/map-driver">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Map a Driver with KDMapper</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Driver</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">How KDMapper works, the iqvw64e.sys exploit, building a KDMapper-compatible driver, and test signing.</p>
+</a>
+<a class="glass group rounded-[20px] p-4 transition-transform duration-500 ease-spring hover:-translate-y-1" href="/guides/windows-kernel-drivers">
+<div class="flex items-start justify-between gap-2">
+<p class="text-sm font-medium text-card-foreground transition-colors group-hover:text-primary">Introduction to Windows Kernel Drivers</p>
+<span class="shrink-0 font-mono text-2xs lowercase text-muted-foreground">Driver</span>
+</div>
+<p class="mt-1.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">Ring 0 vs ring 3, WDM vs KMDF, DriverEntry, IOCTL communication, and test signing mode.</p>
+</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

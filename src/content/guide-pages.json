@@ -1,0 +1,70 @@
+{
+  "compile": {
+    "title": "How to compile (for the PMRs)",
+    "eyebrow": "Guides / Compile (PMRs)"
+  },
+  "driver-compile": {
+    "title": "How to compile + map a kernel driver",
+    "eyebrow": "Guides / Compile Driver"
+  },
+  "map-driver": {
+    "title": "How to Map a Kernel Driver with KDMapper",
+    "eyebrow": "Guides / Map Driver"
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "eyebrow": "Guides / Troubleshooting"
+  },
+  "updating-offsets": {
+    "title": "How to Update Offsets After a Game Patch",
+    "eyebrow": "Guides / Updating Offsets"
+  },
+  "cheat-engine-beginners": {
+    "title": "Cheat Engine Tutorial for Beginners — Find & Modify Game Values",
+    "eyebrow": "Guides / Cheat Engine Beginners"
+  },
+  "dev-environment-setup": {
+    "title": "Setting Up a Game Security Research Development Environment",
+    "eyebrow": "Guides / Dev Environment Setup"
+  },
+  "finding-offsets-reclass": {
+    "title": "Finding Game Offsets with ReClass.NET",
+    "eyebrow": "Guides / Finding Game Offsets with ReClass.NET"
+  },
+  "basic-external-cheat-cpp": {
+    "title": "Writing a Basic External Cheat in C++",
+    "eyebrow": "Guides / Basic External Cheat in C++"
+  },
+  "pattern-scanning": {
+    "title": "Pattern Scanning — Finding Functions in Game Memory by Byte Signature",
+    "eyebrow": "Guides / Pattern Scanning"
+  },
+  "python-game-memory": {
+    "title": "Reading Game Memory with Python Using pymem",
+    "eyebrow": "Guides / Python Game Memory"
+  },
+  "x64dbg-reverse-engineering": {
+    "title": "Using x64dbg for Reverse Engineering Game Binaries",
+    "eyebrow": "Guides / x64dbg Reverse Engineering"
+  },
+  "anti-cheat-overview": {
+    "title": "How Game Anti-Cheat Systems Work — Technical Overview",
+    "eyebrow": "Guides / Anti-Cheat Systems"
+  },
+  "dll-injection-overview": {
+    "title": "DLL Injection Techniques — How They Work",
+    "eyebrow": "Guides / DLL Injection Overview"
+  },
+  "ida-ghidra-reverse-engineering": {
+    "title": "IDA Pro and Ghidra for Game Reverse Engineering — Getting Started",
+    "eyebrow": "Guides / IDA & Ghidra Reverse Engineering"
+  },
+  "anti-debugging-techniques": {
+    "title": "Common Anti-Debugging Techniques and How They Work",
+    "eyebrow": "Guides / Anti-Debugging Techniques"
+  },
+  "windows-kernel-drivers": {
+    "title": "Introduction to Windows Kernel Drivers — How They Work",
+    "eyebrow": "Guides / Windows Kernel Drivers"
+  }
+}

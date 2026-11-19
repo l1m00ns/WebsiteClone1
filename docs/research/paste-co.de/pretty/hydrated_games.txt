@@ -1,0 +1,539 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity: 1; transform: none; max-width: 912px; border-radius: 22px;">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0">
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]" style="transform: none; transform-origin: 50% 50% 0px;">
+</span>Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value="">
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications, 5 unread" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+<span class="glass-tint absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full px-1 font-mono text-3xs font-medium">5</span>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<button type="button" class="relative flex h-9 w-9 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-wash/[0.08] text-muted-foreground shadow-[inset_0_1px_0_0_var(--glass-rim),inset_0_0_0_1px_rgb(var(--wash)/0.08)] transition-transform duration-500 ease-spring hover:scale-110 hover:text-foreground active:scale-90" title="Profile &amp; Settings" id="radix-_r_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<main class="page-offset min-h-screen px-3 pb-12 md:px-5">
+<div class="mx-auto max-w-[100rem] space-y-4">
+<header class="glass flex flex-wrap items-center justify-between gap-4 rounded-[24px] p-5 md:p-6" style="opacity: 1; transform: none;">
+<div>
+<h1 class="font-display text-2xl font-medium tracking-tight text-foreground">Game updates</h1>
+<p class="mt-1 text-sm text-muted-foreground">Current versions and anti-cheat builds, refreshed automatically.</p>
+</div>
+<button type="button" class="btn-liquid">
+<svg/>Refresh</button>
+</header>
+<section class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/rainbow-six-siege.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Rainbow Six Siege</h2>
+<p class="text-xs text-muted-foreground" title="14/07/2026 15:04:29">Updated 14 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24201683">24201683</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/escape-from-tarkov.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Escape From Tarkov</h2>
+<p class="text-xs text-muted-foreground" title="14/07/2026 14:00:09">Updated 14 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24200806">24200806</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain" src="/game-icons/rust.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Rust</h2>
+<p class="text-xs text-muted-foreground" title="13/07/2026 12:46:02">Updated 13 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24181174">24181174</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span class="flex min-w-0 items-center gap-1.5 text-muted-foreground" title="Anti-cheat build">
+<svg/>
+<span class="truncate">Anti-cheat <span class="font-mono text-foreground">v33559480</span>
+</span>
+</span>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">The Finals</h2>
+<p class="text-xs text-muted-foreground" title="10/07/2026 17:32:34">Updated 10 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24144764">24144764</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Marvel Rivals</h2>
+<p class="text-xs text-muted-foreground" title="10/07/2026 10:59:02">Updated 10 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24143200">24143200</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/cs2.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">CS2</h2>
+<p class="text-xs text-muted-foreground" title="09/07/2026 23:45:39">Updated 9 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24134959">24134959</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/apex-legends.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Apex Legends</h2>
+<p class="text-xs text-muted-foreground" title="09/07/2026 19:00:42">Updated 9 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24029470">24029470</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span class="flex min-w-0 items-center gap-1.5 text-muted-foreground" title="Anti-cheat build">
+<svg/>
+<span class="truncate">Anti-cheat <span class="font-mono text-foreground">v31116072</span>
+</span>
+</span>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain" src="/game-icons/roblox.svg">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Roblox</h2>
+<p class="text-xs text-muted-foreground" title="09/07/2026 18:00:14">Updated 9 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="version-36a2600cebf1487d">version-36a2600cebf1487d</p>
+<p class="mt-1 truncate font-mono text-2xs text-muted-foreground">Win version-36a2600cebf1487d · Mac version-56940828b8454204 · Android 2.729.839</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span>
+</span>
+<a href="https://weao.gg" target="_blank" rel="noreferrer" class="inline-flex shrink-0 items-center gap-1 text-muted-foreground transition-colors hover:text-foreground">WEAO<svg/>
+</a>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Arc Raiders</h2>
+<p class="text-xs text-muted-foreground" title="09/07/2026 13:58:21">Updated 9 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24124666">24124666</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span class="flex min-w-0 items-center gap-1.5 text-muted-foreground" title="Anti-cheat build">
+<svg/>
+<span class="truncate">Anti-cheat <span class="font-mono text-foreground">v22976808</span>
+</span>
+</span>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Sea of Thieves</h2>
+<p class="text-xs text-muted-foreground" title="09/07/2026 11:02:11">Updated 9 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24088795">24088795</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Delta Force</h2>
+<p class="text-xs text-muted-foreground" title="08/07/2026 04:49:17">Updated 8 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24101759">24101759</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">PUBG: Battlegrounds</h2>
+<p class="text-xs text-muted-foreground" title="08/07/2026 03:59:28">Updated 8 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24083396">24083396</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-dark" src="/game-icons/bo6.ico">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">BO6</h2>
+<p class="text-xs text-muted-foreground" title="07/07/2026 18:02:53">Updated 7 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23900797">23900797</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain" src="/game-icons/mw3.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">MW3</h2>
+<p class="text-xs text-muted-foreground" title="07/07/2026 18:02:53">Updated 7 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23900797">23900797</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Gray Zone Warfare</h2>
+<p class="text-xs text-muted-foreground" title="07/07/2026 14:05:03">Updated 7 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24049156">24049156</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain" src="/game-icons/minecraft.ico">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Minecraft</h2>
+<p class="text-xs text-muted-foreground" title="07/07/2026 14:03:01">Updated 7 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="26.2">26.2</p>
+<p class="mt-1 truncate font-mono text-2xs text-muted-foreground">Release 26.2 · Snapshot 26.3-snapshot-3</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span>
+</span>
+<a href="https://launchermeta.mojang.com/mc/game/version_manifest.json" target="_blank" rel="noreferrer" class="inline-flex shrink-0 items-center gap-1 text-muted-foreground transition-colors hover:text-foreground">Mojang<svg/>
+</a>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/dead-by-daylight.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Dead by Daylight</h2>
+<p class="text-xs text-muted-foreground" title="06/07/2026 17:01:21">Updated 6 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23993349">23993349</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Dark and Darker</h2>
+<p class="text-xs text-muted-foreground" title="03/07/2026 12:38:47">Updated 3 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24037324">24037324</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Arena Breakout Infinite</h2>
+<p class="text-xs text-muted-foreground" title="03/07/2026 07:32:06">Updated 3 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="24030807">24030807</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Hunt: Showdown 1896</h2>
+<p class="text-xs text-muted-foreground" title="01/07/2026 12:01:07">Updated 1 juil. 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23930444">23930444</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Battlefield 6</h2>
+<p class="text-xs text-muted-foreground" title="30/06/2026 10:02:33">Updated 30 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23882269">23882269</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/valorant.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Valorant</h2>
+<p class="text-xs text-muted-foreground" title="26/06/2026 02:00:00">Updated 26 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="13.01.00.4991932">13.01.00.4991932</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/fortnite.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Fortnite</h2>
+<p class="text-xs text-muted-foreground" title="25/06/2026 10:15:52">Updated 25 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="++Fortnite+Release-41.10-CL-55227503-Windows">++Fortnite+Release-41.10-CL-55227503-Windows</p>
+</div>
+<div class="mt-auto flex items-center justify-between gap-3 border-t border-wash/[0.06] pt-3 text-xs">
+<span class="flex min-w-0 items-center gap-1.5 text-muted-foreground" title="Anti-cheat build">
+<svg/>
+<span class="truncate">Anti-cheat <span class="font-mono text-foreground">v33033144</span>
+</span>
+</span>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Squad</h2>
+<p class="text-xs text-muted-foreground" title="18/06/2026 21:44:49">Updated 18 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23797327">23797327</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">DayZ</h2>
+<p class="text-xs text-muted-foreground" title="16/06/2026 13:01:33">Updated 16 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23760871">23760871</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain" src="/game-icons/unturned.ico">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">Unturned</h2>
+<p class="text-xs text-muted-foreground" title="16/06/2026 13:01:33">Updated 16 juin 2026</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground" title="23760871">23760871</p>
+</div>
+</article>
+<article class="glass group flex flex-col gap-4 rounded-[24px] p-5 opacity-60" style="opacity: 1; filter: none; transform: none;">
+<div class="flex items-center gap-3">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] transition-transform duration-500 ease-spring group-hover:-rotate-6 group-hover:scale-110">
+<img alt="" width="24" height="24" loading="lazy" class="h-6 w-6 object-contain invert-on-light" src="/game-icons/fivem.png">
+</span>
+<div class="min-w-0 flex-1">
+<h2 class="truncate font-medium text-foreground">FiveM</h2>
+<p class="text-xs text-muted-foreground">Not tracked yet</p>
+</div>
+</div>
+<div class="min-w-0">
+<p class="text-3xs uppercase tracking-widest text-muted-foreground">Version</p>
+<p class="mt-1 truncate font-mono text-lg text-foreground">—</p>
+</div>
+</article>
+</section>
+</div>
+</main>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<next-route-announcer style="position: absolute;">
+</next-route-announcer>

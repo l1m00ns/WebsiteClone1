@@ -1,0 +1,140 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset">
+<div class="min-h-screen">
+<div class="mx-auto max-w-3xl px-4 py-6 sm:px-6">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6 mb-6" style="opacity:0;transform:translateY(12px)">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/">
+<svg/>Archive</a>
+<div class="hidden h-8 w-px bg-wash/10 sm:block" aria-hidden="true">
+</div>
+<div class="min-w-0 flex-1">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">paste-co.de</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Safety &amp; Scanning</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">Last updated: 2 April 2026</p>
+</div>
+</header>
+<div class="glass space-y-10 rounded-[24px] p-6 md:p-8">
+<section id="overview">
+<h2 class="mb-3 text-sm font-semibold text-foreground">Overview</h2>
+<div class="prose-legal">
+<p>paste-co.de hosts files submitted by community members. All submissions go through a human admin review queue before being published. This page explains our review process and your responsibilities as a downloader.</p>
+</div>
+</section>
+<section id="review-process">
+<h2 class="mb-3 text-sm font-semibold text-foreground">Review Process</h2>
+<div class="prose-legal">
+<p>When a project is submitted, it enters a pending queue only visible to admins. An admin will inspect the submission — checking the link, description, and metadata — before approving and publishing it to the archive.</p>
+<p>Submissions that contain malicious content, violate our<!-- --> <a href="/terms">Terms of Service</a>, or are otherwise inappropriate will be rejected and deleted without notice.</p>
+</div>
+</section>
+<section id="your-responsibility">
+<h2 class="mb-3 text-sm font-semibold text-foreground">Your Responsibility as a Downloader</h2>
+<div class="prose-legal">
+<p>
+<strong>You download and run files entirely at your own risk.</strong> We strongly recommend:</p>
+<ul>
+<li>Running downloaded files in a <strong>virtual machine or sandbox</strong> before executing on your main system.</li>
+<li>Scanning files with your own antivirus software before opening them.</li>
+<li>Reading the project description and checking any linked source code before downloading.</li>
+<li>Never running any executable you do not understand.</li>
+</ul>
+</div>
+</section>
+<section id="reporting">
+<h2 class="mb-3 text-sm font-semibold text-foreground">Reporting Malicious Content</h2>
+<div class="prose-legal">
+<p>If you believe a file on paste-co.de is malicious or harmful, please report it immediately in our<!-- --> <a href="https://discord.gg/macrostack" target="_blank" rel="noopener noreferrer">Discord server</a>. Include the project name, URL, and a description of your concern. We will investigate and remove the file if confirmed.</p>
+</div>
+</section>
+<section id="disclaimer">
+<h2 class="mb-3 text-sm font-semibold text-foreground">Disclaimer</h2>
+<div class="prose-legal">
+<p>paste-co.de and its operators disclaim all liability for any harm resulting from files downloaded from this site. All content is provided for educational purposes only. See our <a href="/terms">Terms of Service</a> for full details.</p>
+</div>
+</section>
+</div>
+<footer class="mt-16 border-t border-border pt-6">
+<div class="flex flex-wrap gap-4 text-xs text-muted-foreground">
+<a class="hover:text-foreground transition-colors" href="/privacy">Privacy Policy</a>
+<a class="hover:text-foreground transition-colors" href="/terms">Terms of Service</a>
+<a class="hover:text-foreground transition-colors" href="/cookies">Cookie Policy</a>
+<a class="hover:text-foreground transition-colors" href="/safety">Safety &amp; Scanning</a>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

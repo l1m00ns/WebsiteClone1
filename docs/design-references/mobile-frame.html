@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html, body { margin: 0; padding: 0; background: #05070d; }
+      iframe { display: block; width: 390px; height: 2400px; border: 0; }
+    </style>
+  </head>
+  <body>
+    <iframe src="http://localhost:3000/" id="frame"></iframe>
+    <script>
+      const target = new URLSearchParams(location.search).get("url");
+      if (target) document.getElementById("frame").src = target;
+    </script>
+  </body>
+</html>

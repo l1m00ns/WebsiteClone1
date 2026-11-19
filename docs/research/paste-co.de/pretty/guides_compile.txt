@@ -1,0 +1,211 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_3ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_4ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground" href="/guides">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]">
+</span>Guides</a>
+<button type="button" id="radix-_R_6ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_cilfiv5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset-tight min-h-screen px-4 pb-10 md:px-8 md:pb-14">
+<div class="mx-auto w-full max-w-4xl">
+<div class="glass mb-6 flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/guides">
+<svg/>Guides</a>
+<div class="h-8 w-px bg-wash/10">
+</div>
+<div>
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Guides / Compile (PMRs)</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-3xl">How to compile (for the PMRs)</h1>
+</div>
+</div>
+<section class="mb-8 space-y-4 glass rounded-[24px] p-6">
+<div class="space-y-2">
+<h2 class="text-lg font-semibold text-card-foreground">Introduction</h2>
+<p class="text-sm leading-relaxed text-muted-foreground">Compiling a project from source is the process of converting human-readable code into an executable file that your computer can run. This guide covers the common compilation workflow for C++ projects shared on Paste-co.de.</p>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">1. Prerequisites: Visual Studio</h2>
+</div>
+<p class="text-sm leading-relaxed text-muted-foreground mb-4">Almost all C++ based game security projects require Microsoft Visual Studio. While other IDEs exist, Visual Studio provides the most robust toolchain for Windows-based development.</p>
+<p class="text-sm leading-relaxed text-muted-foreground">Get the Community Edition (which is free) here:<!-- --> <a href="https://visualstudio.microsoft.com/" target="_blank" rel="noreferrer" class="text-primary underline-offset-4 hover:underline">https://visualstudio.microsoft.com/</a>
+</p>
+<div class="mt-4 rounded-lg bg-primary/5 p-4 text-xs text-primary/80 border border-primary/10">
+<strong class="block mb-1">Important Note:</strong>When installing, make sure to select the <strong>&quot;Desktop development with C++&quot;</strong> workload in the installer, otherwise you will be missing the necessary compilers and libraries.</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">2. Opening &amp; Configuring the Solution</h2>
+</div>
+<p class="text-sm leading-relaxed text-muted-foreground mb-4">After downloading the project source, look for a <code>.sln</code> (Solution) or <code>.slnx</code> file. Double-clicking this will open the entire project in Visual Studio.</p>
+<ul class="space-y-3 pl-5 text-sm text-muted-foreground">
+<li class="list-disc">
+<strong>Solution Configuration:</strong> Look at the top toolbar. By default, it might say &quot;Debug&quot;. Change this to <strong>Release</strong> for optimal performance and smaller file size.</li>
+<li class="list-disc">
+<strong>Solution Platform:</strong> Next to the configuration, ensure it is set to <strong>x64</strong> (or x86 if the project is specifically 32-bit).</li>
+<li class="list-disc">
+<strong>Build Command:</strong> Once configured, press the green &quot;Play&quot; button or go to <code>Build - Build Solution</code>.</li>
+</ul>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2 text-destructive">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">Troubleshooting Common Errors</h2>
+</div>
+<div class="space-y-4">
+<div class="space-y-2">
+<h3 class="text-xs font-bold text-foreground uppercase tracking-tight">&quot;MSB8020: The build tools... cannot be found&quot;</h3>
+<p class="text-xs text-muted-foreground leading-relaxed">This happens when the project was made with an older (or newer) version of Visual Studio. Right-click the Project in the Solution Explorer, select <strong>Retarget Projects</strong>, and select your current SDK version.</p>
+</div>
+<div class="space-y-2">
+<h3 class="text-xs font-bold text-foreground uppercase tracking-tight">&quot;Cannot open include file: &#x27;...&#x27;: No such file or directory&quot;</h3>
+<p class="text-xs text-muted-foreground leading-relaxed">You are likely missing a library. Check if the project uses a package manager like Vcpkg or NuGet, or if it requires external SDKs like the DirectX SDK.</p>
+</div>
+</div>
+<div class="mt-6 glass-well rounded-[16px] border border-transparent p-4 text-xs text-muted-foreground/80 backdrop-blur-sm italic">
+<p>If you get errors relating to the logic of the source itself, fixing them often requires deep technical knowledge of the codebase.</p>
+</div>
+</section>
+<section class="glass mt-8 rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">Related Projects in the Archive</h2>
+</div>
+<div class="grid gap-2 sm:grid-cols-2">
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/16">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">ImGui Menus Pack 1</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">ImGui / Menu</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">1,051<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/782">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">NeverLose CS:GO Full Source Code + Crack</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">Misc / Source</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">558<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/17">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">ImGui Menus Pack 2</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">ImGui / Menu</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">497<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/779">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Claude code src</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">Misc / Source</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">441<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/1350">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Spoofer source</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">Misc / Source</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">191<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/651">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">RbxCli Imgui</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">ImGui / Menu</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">186<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+</div>
+<a class="mt-3 flex items-center gap-1 font-mono text-[10px] text-muted-foreground/50 hover:text-primary/70" href="/?category=Misc%20%2F%20Source">Browse all <!-- -->Misc / Source<!-- --> projects →</a>
+</section>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

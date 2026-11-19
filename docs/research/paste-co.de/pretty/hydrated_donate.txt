@@ -1,0 +1,290 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<div class="min-h-screen bg-background text-foreground">
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity: 0; transform: translateY(-28px) scale(0.96);">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0" src="/brand/icon.svg">
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]" style="opacity: 1;">
+</span>Donate</a>
+<button type="button" id="radix-_r_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_r_2_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_r_4_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" type="text" value="">
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_r_6_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity: 1; transform: none;">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity: 1; transform: none;">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset max-w-2xl mx-auto px-4 pb-12 md:pb-16">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6 mb-8" style="opacity: 0; transform: translateY(12px);">
+<span class="glass-well flex h-11 w-11 shrink-0 items-center justify-center rounded-[14px] text-primary">
+<svg/>
+</span>
+<div class="min-w-0 flex-1">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Support the project</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Support paste-co.de</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">Your contributions pay for hosting, the database and storage, and keep the site free of ads and monthly fees.</p>
+</div>
+</header>
+<main class="space-y-8">
+<section class="space-y-4">
+<div class="flex flex-wrap items-end justify-between gap-2">
+<h2 class="text-lg font-semibold text-foreground">What donators get</h2>
+</div>
+<ul class="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
+<li>
+<div class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Early access</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">Every new upload is yours 48 hours before everyone else.</span>
+</span>
+</div>
+</li>
+<li>
+<div class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Booster-only sources</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">All the locked booster and donator downloads.</span>
+</span>
+</div>
+</li>
+<li>
+<a class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5 transition-colors hover:border-primary/40" href="/roblox#dumper">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Dumper offsets</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">Full Roblox offsets from our own dumper, far more than the public set.</span>
+</span>
+</a>
+</li>
+<li>
+<a class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5 transition-colors hover:border-primary/40" href="/mcp">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">AI agent access</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">Let Claude Code, Cursor and others search and download sources for you.</span>
+</span>
+</a>
+</li>
+<li>
+<a class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5 transition-colors hover:border-primary/40" href="/proxy">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Web proxy</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">Open any site with ads and redirects blocked, without showing your IP.</span>
+</span>
+</a>
+</li>
+<li>
+<a class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5 transition-colors hover:border-primary/40" href="/tools">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Tools</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">64 browser utilities: formatters, encoders, converters and more.</span>
+</span>
+</a>
+</li>
+<li>
+<a class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5 transition-colors hover:border-primary/40" href="/requests">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Source requests</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">Ask for a source; donator requests are filled first.</span>
+</span>
+</a>
+</li>
+<li>
+<div class="flex h-full gap-3 rounded-lg border border-border bg-card p-3.5">
+<svg/>
+<span class="min-w-0">
+<span class="block text-sm font-medium text-foreground">Donator role</span>
+<span class="block text-xs leading-relaxed text-muted-foreground">The Donator role and badge, on the site and in Discord.</span>
+</span>
+</div>
+</li>
+</ul>
+</section>
+<section class="space-y-5 rounded-lg border border-primary/30 bg-card p-6">
+<div class="flex flex-col justify-between gap-6 md:flex-row md:items-center">
+<div class="space-y-2 max-w-md">
+<p class="inline-flex items-center gap-1.5 font-display text-3xs uppercase tracking-wider text-primary">
+<svg/>Recommended</p>
+<h2 class="text-lg font-semibold text-foreground">Cryptocurrency (Sell.app)</h2>
+<p class="text-sm text-muted-foreground leading-relaxed">Support the platform using your preferred cryptocurrency via Sell.app. Pay what you want, and you get the Donator role, which includes every booster perk, automatically.</p>
+</div>
+<button type="button" disabled="" class="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground opacity-50">
+<svg/>Donate</button>
+</div>
+</section>
+<div class="space-y-6">
+<div class="flex items-center justify-between border-b border-border pb-2">
+<h2 class="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Supported Cryptocurrencies (Manual)</h2>
+<span class="text-xs text-muted-foreground">6 Options</span>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">USDC</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">USDC</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">ERC-20</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">0x7532Ee57e0d3bc37494F554737EdD6f2A7eAd476</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">ETH</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">ETH</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">Ethereum</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">0x7532Ee57e0d3bc37494F554737EdD6f2A7eAd476</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">BTC</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">BTC</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">Bitcoin</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">bc1qhtk5gvrm2c3gvp3yrumhvu57e9zr7f3vt2amgd</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">USDT</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">USDT</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">ERC-20</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">0x7532Ee57e0d3bc37494F554737EdD6f2A7eAd476</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">SOL</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">SOL</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">Solana</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">Ca9BhxwpRYgBBx4NaXwKKyDPYjpJea5mzDyiH14x8iG1</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-4 rounded-lg border border-border bg-card p-4">
+<div class="flex items-center gap-3 min-w-0">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-muted font-mono text-xs font-bold text-foreground">LTC</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="text-sm font-semibold text-foreground">LTC</span>
+<span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">Litecoin</span>
+</div>
+<code class="block mt-1 truncate font-mono text-xs text-muted-foreground select-all">LaeATnucQTzksXnSqxfAAsSANr56pY9dAr</code>
+</div>
+</div>
+<button type="button" class="shrink-0 inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors border border-input bg-background text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+<svg/>
+<span>Copy</span>
+</button>
+</div>
+</div>
+<p class="text-xs text-muted-foreground leading-relaxed pt-2">
+<strong class="text-foreground font-medium">Important:</strong> USDC and USDT transactions must be sent via the Ethereum (ERC-20) network. Please verify your network configurations before transferring funds, as assets sent to incorrect networks cannot be recovered.</p>
+</div>
+</main>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<next-route-announcer style="position: absolute;">
+</next-route-announcer>

@@ -1,0 +1,214 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset">
+<div class="min-h-screen">
+<div class="mx-auto max-w-3xl px-4 py-6 sm:px-6">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6 mb-6" style="opacity:0;transform:translateY(12px)">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/">
+<svg/>Archive</a>
+<div class="hidden h-8 w-px bg-wash/10 sm:block" aria-hidden="true">
+</div>
+<div class="min-w-0 flex-1">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">paste-co.de</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Privacy Policy</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">Last updated: 2 April 2026</p>
+</div>
+</header>
+<div class="glass space-y-10 rounded-[24px] p-6 md:p-8">
+<section id="overview">
+<h2 class="mb-3 text-sm font-semibold text-foreground">1. Overview</h2>
+<div class="prose-legal">
+<p>paste-co.de (&quot;we&quot;, &quot;our&quot;, &quot;the site&quot;) is a project archive and community platform operated for educational purposes. This Privacy Policy explains what personal data we collect, why we collect it, how it is stored, and your rights. By using the site you agree to the practices described below. If you do not agree, please stop using the site.</p>
+</div>
+</section>
+<section id="data-collected">
+<h2 class="mb-3 text-sm font-semibold text-foreground">2. Data We Collect</h2>
+<div class="prose-legal">
+<p>
+<strong>When you log in with Discord</strong> we receive, via OAuth 2.0, the following data directly from Discord:</p>
+<ul>
+<li>Discord user ID, username, and display name</li>
+<li>Avatar image URL (hosted on Discord&#x27;s CDN)</li>
+<li>Email address (used only for account identification, never displayed publicly)</li>
+<li>Guild (server) membership and role information for the MacroStack server</li>
+</ul>
+<p>This information is stored in our database and associated with activity you take on the site (favorites, forum posts, submissions).</p>
+<p>
+<strong>When you browse anonymously</strong> your IP address is immediately hashed using HMAC-SHA256 with a server-side secret. The raw IP address is never stored. The resulting hash is truncated to 16 hex characters and stored in our activity and view logs solely for deduplication and abuse prevention purposes. The hash cannot be reversed to recover your IP address.</p>
+<p>
+<strong>When you submit a project</strong> we store your Discord identity (see above), the submitted file URL and full project metadata, and your IP hash. Submissions go into an admin review queue before being published.</p>
+<p>
+<strong>Usage data</strong> — we count project views and downloads per project. A 10-minute deduplication window is applied using your IP hash. No detailed browsing profiles are built.</p>
+<p>
+<strong>Community feedback</strong> — source reputation votes, comments, quick comments, reports, anonymous display names, and logged-in Discord attribution may be stored so admins can moderate source quality and abuse reports.</p>
+</div>
+</section>
+<section id="third-parties">
+<h2 class="mb-3 text-sm font-semibold text-foreground">3. Third-Party Services</h2>
+<div class="prose-legal">
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Purpose</th>
+<th>Privacy Policy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discord OAuth &amp; API</td>
+<td>Authentication, profile data, guild verification</td>
+<td>
+<a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">discord.com/privacy</a>
+</td>
+</tr>
+<tr>
+<td>Google AdSense</td>
+<td>Advertising (personalised only with consent)</td>
+<td>
+<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a>
+</td>
+</tr>
+<tr>
+<td>Vercel Analytics</td>
+<td>Aggregate site performance metrics</td>
+<td>
+<a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">vercel.com/legal/privacy-policy</a>
+</td>
+</tr>
+<tr>
+<td>Direct sponsors</td>
+<td>Custom sponsored placements with aggregate impression and click counts</td>
+<td>Managed by paste-co.de</td>
+</tr>
+<tr>
+<td>Neon (PostgreSQL)</td>
+<td>Database hosting</td>
+<td>
+<a href="https://neon.tech/privacy-policy" target="_blank" rel="noopener noreferrer">neon.tech/privacy-policy</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Google AdSense uses cookies and device identifiers to serve ads. For users in the EEA, UK, and Switzerland, personalised advertising requires your consent via our cookie consent banner (powered by Google Funding Choices). Non-personalised ads are served if you decline. See our <a href="/cookies">Cookie Policy</a> for full details.</p>
+</div>
+</section>
+<section id="retention">
+<h2 class="mb-3 text-sm font-semibold text-foreground">4. Data Retention</h2>
+<div class="prose-legal">
+<p>Session cookies expire after <strong>7 days</strong>. Activity logs (IP hashes) are kept for <strong>90 days</strong> and then purged. Forum posts and submissions are retained for as long as the site operates or until you request deletion. Discord profile data (username, avatar) is refreshed on each login and removed if you request account deletion.</p>
+</div>
+</section>
+<section id="your-rights">
+<h2 class="mb-3 text-sm font-semibold text-foreground">5. Your Rights</h2>
+<div class="prose-legal">
+<p>Depending on where you live, you may have the right to access, rectify, erase, or restrict processing of your personal data. EEA/UK residents have these rights under the GDPR / UK GDPR. To exercise any right, contact us on Discord at<!-- --> <a href="https://discord.gg/macrostack" target="_blank" rel="noopener noreferrer">discord.gg/macrostack</a> <!-- -->or open a thread in the support channel with your Discord user ID. We will respond within 30 days.</p>
+<p>You may delete your account data at any time by contacting us. Deleting your account removes stored favorites, submissions, and forum posts attributed to your Discord ID. IP hashes are anonymised by design and cannot be individually deleted.</p>
+</div>
+</section>
+<section id="legal-basis">
+<h2 class="mb-3 text-sm font-semibold text-foreground">6. Legal Basis for Processing (EEA / UK)</h2>
+<div class="prose-legal">
+<ul>
+<li>
+<strong>Legitimate interest</strong> — anonymous view/download counting and deduplication using irreversible IP hashes.</li>
+<li>
+<strong>Contract performance</strong> — storing your Discord identity to provide favorites, forum participation, and submission attribution.</li>
+<li>
+<strong>Consent</strong> — personalised advertising cookies (you can withdraw consent at any time via the cookie banner).</li>
+<li>
+<strong>Legal obligation</strong> — retaining abuse/scan logs to detect and prevent malicious uploads.</li>
+</ul>
+</div>
+</section>
+<section id="changes">
+<h2 class="mb-3 text-sm font-semibold text-foreground">7. Changes to This Policy</h2>
+<div class="prose-legal">
+<p>We may update this policy from time to time. The &quot;Last updated&quot; date at the top of this page will reflect any changes. Continued use of the site after changes constitutes acceptance.</p>
+</div>
+</section>
+</div>
+<footer class="mt-16 border-t border-border pt-6">
+<div class="flex flex-wrap gap-4 text-xs text-muted-foreground">
+<a class="hover:text-foreground transition-colors" href="/privacy">Privacy Policy</a>
+<a class="hover:text-foreground transition-colors" href="/terms">Terms of Service</a>
+<a class="hover:text-foreground transition-colors" href="/cookies">Cookie Policy</a>
+<a class="hover:text-foreground transition-colors" href="/safety">Safety &amp; Scanning</a>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

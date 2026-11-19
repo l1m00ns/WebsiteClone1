@@ -1,0 +1,263 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_3ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_4ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground" href="/guides">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]">
+</span>Guides</a>
+<button type="button" id="radix-_R_6ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_cilfiv5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset-tight min-h-screen px-4 pb-10 md:px-8 md:pb-14">
+<div class="mx-auto w-full max-w-4xl">
+<div class="glass mb-6 flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/guides">
+<svg/>Guides</a>
+<div class="h-8 w-px bg-wash/10">
+</div>
+<div>
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Guides / Updating Offsets</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-3xl">How to Update Offsets After a Game Patch</h1>
+</div>
+</div>
+<section class="mb-6 glass rounded-[24px] p-6">
+<h2 class="mb-3 text-sm font-semibold text-card-foreground">Overview</h2>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>Every time a game updates, its executable is recompiled. This means internal data structures shift around in memory — the offsets that pointed to a player&#x27;s health or position at address <code>0x130</code> may now be at <code>0x148</code>. This guide walks through the systematic process of locating new offsets after a patch.</p>
+<p>This is the systematic process every developer follows to keep projects working after game updates.</p>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">1. Why Offsets Change</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>A game&#x27;s player entity might be a C++ class like <code>CPlayer</code>. When the developers compile a new version, they may add, remove, or reorder class members. This shifts the byte position (offset) of every subsequent field.</p>
+<p>For example, if the original struct was:</p>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>struct CPlayer {
+char     name[64];      // offset 0x00
+float    health;        // offset 0x40
+float    maxHealth;     // offset 0x44
+Vector3  position;      // offset 0x48
+int      team;          // offset 0x54
+};</code>
+</pre>
+<p>And the devs insert a new <code>int flags</code> field after <code>name</code>, every field below it shifts by 4 bytes. Your old <code>health</code> offset of<!-- --> <code>0x40</code> is now <code>0x44</code>.</p>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">2. The Diffing Approach</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>The fastest method for experienced developers is binary diffing — comparing the old and new executable to see exactly what changed. Tools like<!-- --> <strong>Diaphora</strong> (IDA plugin), <strong>BinDiff</strong>, or even simple hex-diff tools can highlight which functions changed and by how much.</p>
+<p>If a function that accessed your known offset only changed slightly (e.g., the offset operand in a <code>mov rax, [rbx+0x130]</code> instruction changed to<!-- --> <code>0x148</code>), you can update your offset directly from the diff without needing to run the game at all.</p>
+<div class="mt-4 rounded-lg bg-primary/5 p-4 text-xs text-primary/80 border border-primary/10">
+<strong class="block mb-1">Tip:</strong>Diaphora is free and integrates with both IDA Pro and Ghidra. Even if the full diff is noisy, filter to functions you know contain your offsets.</div>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">3. The Cheat Engine Method</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>For simpler offsets (health, ammo, coordinates), the live scan approach is faster:</p>
+<ol class="space-y-3 pl-5">
+<li class="list-decimal">
+<strong>Attach Cheat Engine</strong> to the updated game process.</li>
+<li class="list-decimal">
+<strong>First scan</strong> for the known value type — if health is a float and you have 100 HP, scan for <code>Float: 100.0</code>.</li>
+<li class="list-decimal">Take damage in-game, then <strong>Next Scan</strong> for the new value (e.g.,<!-- --> <code>75.0</code>). Repeat until you have 1–3 addresses.</li>
+<li class="list-decimal">
+<strong>Load that address into ReClass.NET</strong> and check the surrounding memory layout. Compare it to your old struct map — you&#x27;ll quickly see if the layout shifted.</li>
+<li class="list-decimal">
+<strong>Calculate the offset from the module base</strong> <code>address - moduleBase = offset</code>. Do a pointer scan if it&#x27;s a dynamic address.</li>
+</ol>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">4. Using Pattern Scanning for Stability</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>Rather than hardcoding raw offsets, experienced developers use <strong>pattern scanning</strong> to locate offsets dynamically at runtime. A byte pattern (AOB — Array of Bytes) in the game&#x27;s code section is more stable than a raw address because code rarely changes significantly between minor patches.</p>
+<p>The workflow:</p>
+<ol class="space-y-2 pl-5">
+<li class="list-decimal">In IDA/Ghidra, find the instruction that reads your offset (e.g., <code>mov eax, [rcx+0x40]</code>).</li>
+<li class="list-decimal">Copy the surrounding bytes as a pattern, using <code>?</code> for bytes that may vary (addresses, offsets themselves).</li>
+<li class="list-decimal">In your tool, scan memory for this pattern at startup, then read the offset operand from the matched instruction.</li>
+</ol>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>// Pattern: 8B 81 ? ? ? ? (mov eax, [rcx+??])
+// Read offset from bytes at pattern+2
+uintptr_t patternAddr = PatternScan(moduleBase, moduleSize,
+&quot;\x8B\x81\x00\x00\x00\x00&quot;, &quot;xx????&quot;);
+uint32_t healthOffset = *reinterpret_cast&lt;uint32_t*&gt;(patternAddr + 2);</code>
+</pre>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">5. Keeping an Offset Map</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>Maintain a version-controlled file (JSON, TOML, or a C++ header) that maps offset names to values, along with the game version they were verified on. This makes it trivial to diff your offset file between versions and see what shifted.</p>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>// offsets.hpp
+// Game version: 1.42.3 (2024-11-14)
+namespace Offsets {
+namespace CPlayer {
+constexpr uintptr_t health      = 0x44;  // float
+constexpr uintptr_t maxHealth   = 0x48;  // float
+constexpr uintptr_t position    = 0x4C;  // Vector3 (12 bytes)
+constexpr uintptr_t team        = 0x58;  // int
+constexpr uintptr_t isAlive     = 0x5C;  // bool
+}
+}</code>
+</pre>
+</div>
+</section>
+<section class="glass mt-8 rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">Related Projects in the Archive</h2>
+</div>
+<div class="grid gap-2 sm:grid-cols-2">
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/782">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">NeverLose CS:GO Full Source Code + Crack</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">Misc / Source</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">558<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/645">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Signed p2c driver</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">543<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/509">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">PermSpoof</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">503<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/779">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Claude code src</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">Misc / Source</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">441<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/217">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Neptune Spoofer</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">406<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/414">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">HWID Kernel Spoofer</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">378<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+</div>
+<a class="mt-3 flex items-center gap-1 font-mono text-[10px] text-muted-foreground/50 hover:text-primary/70" href="/?category=Misc%20%2F%20Source">Browse all <!-- -->Misc / Source<!-- --> projects →</a>
+</section>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

@@ -1,0 +1,269 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_3ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_4ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground" href="/guides">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]">
+</span>Guides</a>
+<button type="button" id="radix-_R_6ailfiv5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_cilfiv5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset-tight min-h-screen px-4 pb-10 md:px-8 md:pb-14">
+<div class="mx-auto w-full max-w-4xl">
+<div class="glass mb-6 flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/guides">
+<svg/>Guides</a>
+<div class="h-8 w-px bg-wash/10">
+</div>
+<div>
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Guides / Map Driver</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-3xl">How to Map a Kernel Driver with KDMapper</h1>
+</div>
+</div>
+<section class="mb-6 glass rounded-[24px] p-6">
+<h2 class="mb-3 text-sm font-semibold text-card-foreground">Overview</h2>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>KDMapper is an open-source tool that loads a Windows kernel driver into memory without registering it through the normal driver loading mechanism (SCM — Service Control Manager). This technique is known as <strong>manual mapping</strong> and is commonly studied in security research because it bypasses Driver Signature Enforcement (DSE) without requiring test signing mode.</p>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">1. What Is Driver Signature Enforcement (DSE)?</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>Since Windows Vista 64-bit, Microsoft requires all kernel-mode drivers to be digitally signed with a certificate trusted by Microsoft. The kernel checks this signature before loading any driver via <code>NtLoadDriver</code> or the SCM. This prevents malicious code from running at ring-0.</p>
+<p>DSE is enforced by <code>CI.dll</code> (Code Integrity) in the kernel. When a driver load is attempted, <code>CI.dll</code> verifies the PE authenticode signature. KDMapper bypasses this by <em>never asking the kernel to load the driver through the normal path at all</em>.</p>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">2. How KDMapper Works — The iqvw64e.sys Exploit</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>KDMapper exploits a vulnerability in a legitimate, Microsoft-signed Intel network driver: <code>iqvw64e.sys</code>. This driver exposes an IOCTL that allows user-mode code to perform <strong>arbitrary kernel memory reads and writes</strong>.</p>
+<p>The process step-by-step:</p>
+<ol class="space-y-2 pl-5 mt-2">
+<li class="list-decimal">KDMapper drops <code>iqvw64e.sys</code> to disk and registers it as a service using the SCM.</li>
+<li class="list-decimal">Since <code>iqvw64e.sys</code> is legitimately signed, Windows loads it normally.</li>
+<li class="list-decimal">KDMapper sends IOCTLs to the vulnerable driver to allocate non-paged kernel memory (<code>ExAllocatePool</code>) for the target driver image.</li>
+<li class="list-decimal">KDMapper manually maps the target driver&#x27;s PE image into that allocation — resolving imports, applying relocations, just like a PE loader.</li>
+<li class="list-decimal">Using the IOCTL&#x27;s arbitrary write primitive, KDMapper calls the target driver&#x27;s <code>DriverEntry</code> function pointer from kernel context.</li>
+<li class="list-decimal">The legitimate <code>iqvw64e.sys</code> is then unloaded and deleted.</li>
+</ol>
+<div class="mt-4 rounded-lg bg-primary/5 p-4 text-xs text-primary/80 border border-primary/10">
+<strong class="block mb-1">Why it works:</strong>The target driver never touches the DSE check path. It is placed directly into kernel memory and executed — the kernel&#x27;s loader is never involved.</div>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">3. Building Your Driver for KDMapper</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>Your driver must be compiled for manual mapping — it cannot rely on the driver framework registering it. Key requirements:</p>
+<ul class="space-y-2 pl-5">
+<li class="list-disc">
+<strong>No CRT (C Runtime):</strong> The CRT is not initialized. Avoid global constructors, <code>memcpy</code> from CRT, etc. Use kernel equivalents (<code>RtlCopyMemory</code>, <code>RtlZeroMemory</code>).</li>
+<li class="list-disc">
+<strong>Disable stack cookies:</strong> Remove <code>/GS</code> (security cookies), as the cookie value won&#x27;t be set up correctly without the CRT.</li>
+<li class="list-disc">
+<strong>No RTTI or exceptions:</strong> Disable C++ exceptions (<code>/EHsc</code> off) and RTTI.</li>
+<li class="list-disc">
+<strong>DriverEntry signature must match:</strong> <code>NTSTATUS DriverEntry(PDRIVER_OBJECT, PUNICODE_STRING)</code>
+</li>
+</ul>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>// Minimal KDMapper-compatible DriverEntry
+#include &lt;ntdef.h&gt;
+#include &lt;ntddk.h&gt;
+NTSTATUS DriverEntry(
+PDRIVER_OBJECT  DriverObject,
+PUNICODE_STRING RegistryPath
+) {
+UNREFERENCED_PARAMETER(DriverObject);
+UNREFERENCED_PARAMETER(RegistryPath);
+// Your kernel code here
+return STATUS_SUCCESS;
+}</code>
+</pre>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">4. Running KDMapper</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>KDMapper is a command-line tool. Run from an elevated (Administrator) prompt:</p>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>kdmapper.exe C:\\path\\to\\your\\driver.sys</code>
+</pre>
+<p class="mt-3">KDMapper will output the base address of your mapped driver if successful:</p>
+<pre class="mt-2 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code>[+] iqvw64e loaded
+[+] Allocating memory for image (0x12000)
+[+] Image mapped at: 0xFFFF800012340000
+[+] Calling DriverEntry: 0xFFFF800012341000
+[+] iqvw64e unloaded</code>
+</pre>
+<div class="mt-4 rounded-lg bg-destructive/5 p-4 text-xs text-destructive/80 border border-destructive/10">
+<strong class="block mb-1">Detection Note:</strong>Modern kernel-level anti-cheat drivers monitor for the loading of <code>iqvw64e.sys</code>and flag it as suspicious. Microsoft has also added <code>iqvw64e.sys</code> to the Vulnerable Driver Blocklist in Windows Security.</div>
+</div>
+</section>
+<section class="mb-6 glass rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">5. Alternative: Test Signing Mode</h2>
+</div>
+<div class="space-y-3 text-sm leading-relaxed text-muted-foreground">
+<p>For legitimate driver development without DSE exploits, enable test signing mode. This is the correct approach for development and testing:</p>
+<pre class="mt-3 overflow-x-auto rounded-xl bg-background/60 p-4 font-mono text-xs text-muted-foreground border border-border/20">
+<code># Run as Administrator — enables test signing
+bcdedit /set testsigning on
+# Load your test-signed driver
+sc create MyDriver type= kernel binPath= C:\\driver.sys
+sc start MyDriver</code>
+</pre>
+<p class="mt-2">Test signing mode adds a watermark to the desktop and is obviously detectable by anti-cheat, but it is the proper method for driver development workflows.</p>
+</div>
+</section>
+<section class="glass mt-8 rounded-[24px] p-4 md:p-5">
+<div class="mb-4 flex items-center gap-2">
+<svg/>
+<h2 class="text-sm font-semibold text-card-foreground">Related Projects in the Archive</h2>
+</div>
+<div class="grid gap-2 sm:grid-cols-2">
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/645">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Signed p2c driver</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">543<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/509">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">PermSpoof</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">503<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/217">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Neptune Spoofer</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">406<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/414">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">HWID Kernel Spoofer</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Driver</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">378<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/455">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">Mapper</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Mapper</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">321<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+<a class="glass-well group flex items-center justify-between gap-3 rounded-[14px] px-3 py-2.5 transition-[transform,background-color] duration-500 ease-spring hover:-translate-y-0.5 hover:bg-primary/10" href="/project/833">
+<div class="min-w-0">
+<p class="truncate text-xs font-medium text-card-foreground group-hover:text-primary">xue0it</p>
+<p class="font-mono text-[10px] text-muted-foreground/60">System / Mapper</p>
+</div>
+<div class="flex shrink-0 items-center gap-1.5">
+<span class="font-mono text-[10px] text-muted-foreground/50">250<!-- --> dl</span>
+<svg/>
+</div>
+</a>
+</div>
+<a class="mt-3 flex items-center gap-1 font-mono text-[10px] text-muted-foreground/50 hover:text-primary/70" href="/?category=System%20%2F%20Driver">Browse all <!-- -->System / Driver<!-- --> projects →</a>
+</section>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

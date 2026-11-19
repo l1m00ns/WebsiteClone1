@@ -1,0 +1,130 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]">
+</span>Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset min-h-screen flex flex-col px-4 pb-10 md:px-8 md:pb-14">
+<div class="mx-auto w-full max-w-[100rem] flex-1 flex flex-col space-y-8">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6" style="opacity:0;transform:translateY(12px)">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/">
+<svg/>Archive</a>
+<div class="hidden h-8 w-px bg-wash/10 sm:block" aria-hidden="true">
+</div>
+<div class="min-w-0 flex-1">
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Community offsets</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">Upload and browse community-contributed game offsets (JSON, C++, C#).</p>
+</div>
+</header>
+<div class="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style="animation-delay:100ms;animation-fill-mode:backwards">
+<div class="flex-1 bg-card border border-border rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-3 w-full sm:w-auto">
+<span class="text-sm text-muted-foreground whitespace-nowrap">Filter by Game:</span>
+<button type="button" role="combobox" aria-controls="radix-_R_4qav5t5b_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="bezel-control flex h-10 items-center justify-between rounded-xl border border-input bg-background/85 px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 w-[180px]">
+<span style="pointer-events:none">
+</span>
+<svg/>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
+</select>
+</div>
+</div>
+<div class="flex-1 bg-card border border-border rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-3 w-full sm:w-auto">
+<span class="text-sm text-muted-foreground whitespace-nowrap">Upload to:</span>
+<button type="button" role="combobox" aria-controls="radix-_R_jaav5t5b_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-placeholder="" class="bezel-control flex h-10 items-center justify-between rounded-xl border border-input bg-background/85 px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 w-[160px]">
+<span style="pointer-events:none">Select Game</span>
+<svg/>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal">
+</select>
+</div>
+<label class="relative inline-flex cursor-pointer items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors opacity-100 disabled:opacity-50">
+<svg/>Upload File<input type="file" accept=".json,.h,.hpp,.cpp,.cs" class="absolute inset-0 h-full w-full cursor-pointer opacity-0"/>
+</label>
+</div>
+</div>
+<div class="rounded-xl border border-border bg-card animate-fade-in-up overflow-hidden" style="animation-delay:200ms;animation-fill-mode:backwards">
+<div class="flex items-center justify-between border-b border-border bg-secondary/50 px-4 py-3">
+<span class="text-xs font-medium uppercase tracking-wide text-muted-foreground">Offset Files</span>
+<span class="text-xs text-muted-foreground">0</span>
+</div>
+<div class="max-h-[700px] overflow-y-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
+<div class="flex items-center justify-center p-8 text-muted-foreground">
+<svg/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

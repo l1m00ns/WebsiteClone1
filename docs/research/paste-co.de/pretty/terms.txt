@@ -1,0 +1,179 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity:0;transform:translateY(-28px) scale(0.96)">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img src="/brand/icon.svg" alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0"/>
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/">Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_R_6l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_R_8l5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_R_cl5av5t5b_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input type="text" role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" value=""/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_p5av5t5b_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+<span class="inline-flex h-9 w-9 items-center justify-center text-muted-foreground">
+<svg/>
+</span>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity:1;transform:none">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset">
+<div class="min-h-screen">
+<div class="mx-auto max-w-3xl px-4 py-6 sm:px-6">
+<header class="glass flex flex-wrap items-center gap-4 rounded-[24px] p-5 md:p-6 mb-6" style="opacity:0;transform:translateY(12px)">
+<a class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" href="/">
+<svg/>Archive</a>
+<div class="hidden h-8 w-px bg-wash/10 sm:block" aria-hidden="true">
+</div>
+<div class="min-w-0 flex-1">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">paste-co.de</p>
+<h1 class="font-display text-xl font-medium tracking-tight text-foreground md:text-2xl">Terms of Service</h1>
+<p class="mt-1 text-sm leading-relaxed text-muted-foreground">Last updated: 2 April 2026</p>
+</div>
+</header>
+<div class="glass space-y-10 rounded-[24px] p-6 md:p-8">
+<section id="acceptance">
+<h2 class="mb-3 text-sm font-semibold text-foreground">1. Acceptance</h2>
+<div class="prose-legal">
+<p>By accessing or using paste-co.de (&quot;the site&quot;, &quot;we&quot;, &quot;us&quot;) you agree to be bound by these Terms of Service and all applicable laws. If you do not agree, do not use the site. We reserve the right to modify these terms at any time; continued use after changes constitutes acceptance.</p>
+</div>
+</section>
+<section id="educational-use">
+<h2 class="mb-3 text-sm font-semibold text-foreground">2. Educational Use Only</h2>
+<div class="prose-legal">
+<p>All content on paste-co.de — including project files, code snippets, and guides — is provided <strong>for educational and research purposes only</strong>. You may not use any content from this site:</p>
+<ul>
+<li>To violate any applicable law or regulation</li>
+<li>To violate the terms of service of any third-party platform, game, or software</li>
+<li>To harm, harass, or exploit other users or individuals</li>
+<li>For commercial redistribution without explicit written permission</li>
+</ul>
+<p>We make no representations about the legality of any file in your jurisdiction. It is your sole responsibility to ensure your use complies with applicable law.</p>
+</div>
+</section>
+<section id="intellectual-property">
+<h2 class="mb-3 text-sm font-semibold text-foreground">3. Intellectual Property</h2>
+<div class="prose-legal">
+<p>Project files submitted to the site remain the intellectual property of their respective authors. By submitting content you grant paste-co.de a non-exclusive, royalty-free licence to store, display, and distribute that content on the site. You represent that you have the right to grant this licence.</p>
+<p>The paste-co.de website design, logo, and original site code are the property of the site operator. You may not copy or reproduce them without permission.</p>
+</div>
+</section>
+<section id="user-submissions">
+<h2 class="mb-3 text-sm font-semibold text-foreground">4. User Submissions</h2>
+<div class="prose-legal">
+<p>When submitting content to the site you agree that your submission:</p>
+<ul>
+<li>Does not contain malware, spyware, ransomware, or any malicious code</li>
+<li>Does not infringe any third-party copyright, patent, or trade secret</li>
+<li>Does not contain personal data of others without their consent</li>
+<li>Is not spam, advertising, or off-topic</li>
+</ul>
+<p>Submissions go into an admin review queue before being made publicly visible. We reserve the right to reject or remove any submission at our discretion without notice.</p>
+</div>
+</section>
+<section id="account">
+<h2 class="mb-3 text-sm font-semibold text-foreground">5. Accounts &amp; Authentication</h2>
+<div class="prose-legal">
+<p>Accounts are created via Discord OAuth. You are responsible for all activity under your account. We reserve the right to suspend or terminate accounts that violate these terms or that we determine, at our sole discretion, are being used abusively.</p>
+<p>You must be at least 13 years old to create a Discord account and use this site (or the minimum age required in your jurisdiction if higher).</p>
+</div>
+</section>
+<section id="disclaimers">
+<h2 class="mb-3 text-sm font-semibold text-foreground">6. Disclaimers &amp; Limitation of Liability</h2>
+<div class="prose-legal">
+<p>This site is provided <strong>&quot;as is&quot;</strong> without warranties of any kind, express or implied. We do not warrant that the site will be uninterrupted, error-free, or free of viruses. You use all downloaded files entirely at your own risk.</p>
+<p>To the maximum extent permitted by law, paste-co.de and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from your use of, or inability to use, the site or its content.</p>
+</div>
+</section>
+<section id="advertising">
+<h2 class="mb-3 text-sm font-semibold text-foreground">7. Advertising</h2>
+<div class="prose-legal">
+<p>The site displays advertisements served by Google AdSense. These ads help fund the operation of the site. Ad content is served by Google and does not represent endorsement by paste-co.de. See our <a href="/cookies">Cookie Policy</a> and<!-- --> <a href="/privacy">Privacy Policy</a> for details on how ad-related data is processed.</p>
+</div>
+</section>
+<section id="termination">
+<h2 class="mb-3 text-sm font-semibold text-foreground">8. Termination</h2>
+<div class="prose-legal">
+<p>We may terminate or suspend access to the site immediately, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, the site, or third parties.</p>
+</div>
+</section>
+<section id="governing-law">
+<h2 class="mb-3 text-sm font-semibold text-foreground">9. Governing Law</h2>
+<div class="prose-legal">
+<p>These terms are governed by the laws of the operator&#x27;s jurisdiction. Any disputes shall be resolved through good-faith negotiation before any formal proceedings.</p>
+</div>
+</section>
+<section id="contact">
+<h2 class="mb-3 text-sm font-semibold text-foreground">10. Contact</h2>
+<div class="prose-legal">
+<p>For questions about these terms, join our<!-- --> <a href="https://discord.gg/macrostack" target="_blank" rel="noopener noreferrer">Discord server</a> <!-- -->and open a support thread.</p>
+</div>
+</section>
+</div>
+<footer class="mt-16 border-t border-border pt-6">
+<div class="flex flex-wrap gap-4 text-xs text-muted-foreground">
+<a class="hover:text-foreground transition-colors" href="/privacy">Privacy Policy</a>
+<a class="hover:text-foreground transition-colors" href="/terms">Terms of Service</a>
+<a class="hover:text-foreground transition-colors" href="/cookies">Cookie Policy</a>
+<a class="hover:text-foreground transition-colors" href="/safety">Safety &amp; Scanning</a>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<!--$!-->
+<!--/$-->

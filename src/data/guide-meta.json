@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "compile",
+    "title": "How to Compile Projects from Source",
+    "tag": "Build",
+    "description": "Set up Visual Studio, configure Release/x64, and fix common MSB8020 and include errors."
+  },
+  {
+    "slug": "troubleshooting",
+    "title": "Troubleshooting Common Errors",
+    "tag": "Help",
+    "description": "Fix MSB4062 ValidateNTTargetVersion, MSB8020, Nal is already in use, and WDK/SDK mismatch issues."
+  },
+  {
+    "slug": "cheat-engine-beginners",
+    "title": "Cheat Engine Tutorial for Beginners",
+    "tag": "Tools",
+    "description": "First scan, narrowing results, pointer scanning, freezing values, and creating a .CT table."
+  },
+  {
+    "slug": "dev-environment-setup",
+    "title": "Setting Up a Research Dev Environment",
+    "tag": "Setup",
+    "description": "Visual Studio, Cheat Engine, x64dbg, IDA/Ghidra, test VM setup, and recommended project structure."
+  },
+  {
+    "slug": "updating-offsets",
+    "title": "Updating Game Offsets After a Patch",
+    "tag": "Offsets",
+    "description": "Binary diffing, Cheat Engine rescanning, ReClass layout comparison, and pattern-based offset discovery."
+  },
+  {
+    "slug": "finding-offsets-reclass",
+    "title": "Finding Offsets with ReClass.NET",
+    "tag": "Offsets",
+    "description": "Attach ReClass to a process, navigate struct layouts, identify data types, and export offset constants."
+  },
+  {
+    "slug": "basic-external-cheat-cpp",
+    "title": "Writing a Basic External Cheat in C++",
+    "tag": "C++",
+    "description": "OpenProcess, ReadProcessMemory, WriteProcessMemory, finding module base — all the Windows API fundamentals."
+  },
+  {
+    "slug": "pattern-scanning",
+    "title": "Pattern Scanning in Game Memory",
+    "tag": "Memory",
+    "description": "Generate AOB signatures, use wildcards, implement a C++ scanner with VirtualQuery, and cache results."
+  },
+  {
+    "slug": "python-game-memory",
+    "title": "Reading Game Memory with Python (pymem)",
+    "tag": "Python",
+    "description": "Attach to a process, read ints/floats/Vec3, resolve pointer chains, and understand limitations vs C++."
+  },
+  {
+    "slug": "x64dbg-reverse-engineering",
+    "title": "Using x64dbg for Reverse Engineering",
+    "tag": "RE",
+    "description": "Set hardware breakpoints, read disassembly, search memory, and automate analysis with x64dbg scripts."
+  },
+  {
+    "slug": "anti-cheat-overview",
+    "title": "How Anti-Cheat Systems Work",
+    "tag": "AC",
+    "description": "EasyAntiCheat, BattlEye, VAC, and kernel-level AC like Vanguard — what they detect and how."
+  },
+  {
+    "slug": "dll-injection-overview",
+    "title": "DLL Injection Techniques Overview",
+    "tag": "Research",
+    "description": "LoadLibrary injection, manual mapping, SetWindowsHookEx, detection methods, and legitimate use cases."
+  },
+  {
+    "slug": "ida-ghidra-reverse-engineering",
+    "title": "IDA Pro & Ghidra for Game RE",
+    "tag": "RE",
+    "description": "Load a binary, use the decompiler, find functions via string xrefs, identify structs, annotate findings."
+  },
+  {
+    "slug": "anti-debugging-techniques",
+    "title": "Anti-Debugging Techniques Explained",
+    "tag": "Research",
+    "description": "IsDebuggerPresent, NtQueryInformationProcess, timing checks, TLS callbacks — how they work and are studied."
+  },
+  {
+    "slug": "driver-compile",
+    "title": "Compiling Windows Kernel Drivers",
+    "tag": "Driver",
+    "description": "Install the WDK, configure Visual Studio, and build a kernel driver with proper project settings."
+  },
+  {
+    "slug": "map-driver",
+    "title": "Map a Driver with KDMapper",
+    "tag": "Driver",
+    "description": "How KDMapper works, the iqvw64e.sys exploit, building a KDMapper-compatible driver, and test signing."
+  },
+  {
+    "slug": "windows-kernel-drivers",
+    "title": "Introduction to Windows Kernel Drivers",
+    "tag": "Driver",
+    "description": "Ring 0 vs ring 3, WDM vs KMDF, DriverEntry, IOCTL communication, and test signing mode."
+  }
+]

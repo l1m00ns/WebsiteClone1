@@ -1,0 +1,1630 @@
+<body class="font-sans antialiased">
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<div class="ambient" aria-hidden="true">
+<span class="ambient-orb ambient-orb--a">
+</span>
+<span class="ambient-orb ambient-orb--b">
+</span>
+<span class="ambient-orb ambient-orb--c">
+</span>
+</div>
+<svg/>
+<main>
+<header class="pointer-events-none fixed inset-x-0 top-0 z-40 px-3 pt-3">
+<div class="glass glass-lens pointer-events-auto mx-auto flex h-14 items-center gap-2 rounded-[22px] pl-3 pr-2 md:gap-4 md:pl-4" style="opacity: 0; transform: translateY(-28px) scale(0.96);">
+<a class="group flex shrink-0 items-center gap-2.5" aria-label="paste-co.de home" data-brand-logo="true" href="/">
+<img alt="" width="32" height="32" class="h-8 w-8 drop-shadow-[0_4px_12px_hsl(var(--primary)/0.45)]" tabindex="0" src="/brand/icon.svg">
+<span class="hidden font-display text-base font-semibold tracking-tight text-foreground sm:inline md:hidden lg:inline">paste-co<span class="text-primary">.de</span>
+</span>
+</a>
+<nav class="hidden items-center md:flex" aria-label="Main">
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-foreground" href="/">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]" style="opacity: 1;">
+</span>Archive</a>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/donate">Donate</a>
+<button type="button" id="radix-_r_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Games<svg/>
+</button>
+<button type="button" id="radix-_r_2_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Tools<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground" href="/guides">Guides</a>
+<button type="button" id="radix-_r_4_" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors text-muted-foreground">Community<svg/>
+</button>
+<a class="relative isolate inline-flex h-9 items-center gap-1 rounded-[12px] px-3 text-sm outline-none transition-colors font-medium text-primary" href="/submissions">
+<svg/>Submit</a>
+</nav>
+<div class="ml-auto flex min-w-0 flex-1 justify-end">
+<div class="relative max-w-[18rem] flex-1 transition-[max-width] duration-700 ease-liquid focus-within:max-w-[30rem]">
+<div class="relative">
+<svg/>
+<input role="combobox" aria-expanded="false" aria-controls="omni-search-results" aria-autocomplete="list" placeholder="Search the archive" class="glass-well h-9 w-full rounded-[12px] pl-9 pr-14 text-sm text-foreground placeholder:text-muted-foreground transition-[border-radius,box-shadow] duration-500 ease-liquid focus:rounded-[18px] focus:shadow-[inset_0_1px_3px_0_rgb(0_0_0/0.6),0_0_0_1px_hsl(var(--primary)/0.6),0_0_24px_-4px_hsl(var(--primary)/0.5)] focus:outline-none" type="text" value="">
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+<kbd class="hidden items-center rounded-[6px] bg-wash/[0.08] px-1.5 font-mono text-3xs text-muted-foreground sm:flex">/</kbd>
+</div>
+</div>
+</div>
+</div>
+<div class="flex shrink-0 items-center gap-1">
+<button type="button" class="btn-icon-liquid relative" title="Notifications" aria-label="Notifications" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_r_6_" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid hidden sm:inline-flex" aria-label="Switch to light theme" title="Switch to light theme">
+<span class="flex" style="opacity: 1; transform: none;">
+<svg/>
+</span>
+</button>
+<button type="button" class="relative flex h-9 w-9 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-wash/[0.08] text-muted-foreground shadow-[inset_0_1px_0_0_var(--glass-rim),inset_0_0_0_1px_rgb(var(--wash)/0.08)] transition-transform duration-500 ease-spring hover:scale-110 hover:text-foreground active:scale-90" title="Profile &amp; Settings" id="radix-_r_1v_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+<button type="button" class="btn-icon-liquid md:hidden" data-state="closed" aria-label="Open menu" aria-expanded="false">
+<span class="flex" style="opacity: 1; transform: none;">
+<svg/>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="page-offset-tight">
+<div class="flex gap-5 px-3">
+<aside class="sticky-below-status sticky hidden w-64 shrink-0 lg:block" style="height: calc(100vh - var(--status-bar-height, 68px) - var(--status-bar-gap, 12px) - 12px);">
+<div class="glass flex h-full flex-col overflow-hidden rounded-[28px]" style="opacity: 0; transform: translateX(-24px) scale(0.97);">
+<nav class="scrollbar-none min-h-0 flex-1 overflow-y-auto overscroll-contain p-2.5" aria-label="Categories">
+<p class="px-3 pb-2 pt-2 font-display text-3xs uppercase tracking-widest text-muted-foreground">Categories</p>
+<button type="button" class="relative isolate mb-1 flex h-10 w-full items-center justify-between rounded-[12px] px-3 text-left text-sm transition-colors font-medium text-foreground" aria-current="page">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[12px]" style="opacity: 1;">
+</span>
+<span>All projects</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">2788</span>
+</button>
+<ul class="flex flex-col">
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/roblox.svg">
+</span>
+<span class="flex-1 truncate">Roblox</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">1207</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/discord.svg">
+</span>
+<span class="flex-1 truncate">Discord</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">24</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-dark" src="/game-icons/bo6.ico">
+</span>
+<span class="flex-1 truncate">BO6</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">15</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/cs2.png">
+</span>
+<span class="flex-1 truncate">CS2</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">89</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/fivem.png">
+</span>
+<span class="flex-1 truncate">FiveM</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">54</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/fortnite.png">
+</span>
+<span class="flex-1 truncate">Fortnite</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">139</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/mw3.png">
+</span>
+<span class="flex-1 truncate">MW3</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">12</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/rust.png">
+</span>
+<span class="flex-1 truncate">Rust</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">49</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/valorant.png">
+</span>
+<span class="flex-1 truncate">Valorant</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">39</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/minecraft.ico">
+</span>
+<span class="flex-1 truncate">Minecraft</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">58</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">ImGui</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">337</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/apex-legends.png">
+</span>
+<span class="flex-1 truncate">Apex Legends</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">15</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/dead-by-daylight.png">
+</span>
+<span class="flex-1 truncate">Dead by Daylight</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">11</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/escape-from-tarkov.png">
+</span>
+<span class="flex-1 truncate">Escape From Tarkov</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">3</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain invert-on-light" src="/game-icons/rainbow-six-siege.png">
+</span>
+<span class="flex-1 truncate">Rainbow Six Siege</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">43</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<img alt="" width="16" height="16" class="h-4 w-4 object-contain" src="/game-icons/unturned.ico">
+</span>
+<span class="flex-1 truncate">Unturned</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">7</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">System</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">104</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">Tools</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">110</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">Graphics</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">22</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">Audio</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">75</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+<li>
+<button type="button" aria-expanded="false" class="group/row relative isolate flex h-9 w-full items-center gap-2.5 rounded-[12px] px-3 text-left text-sm transition-colors text-muted-foreground hover:text-foreground">
+<span class="flex h-4 w-4 shrink-0 items-center justify-center transition-transform duration-500 ease-spring group-hover/row:scale-125 group-hover/row:-rotate-6">
+<svg/>
+</span>
+<span class="flex-1 truncate">Misc</span>
+<span class="font-mono text-2xs tabular-nums text-muted-foreground">375</span>
+<span class="flex text-muted-foreground" style="transform: none;">
+<svg/>
+</span>
+</button>
+</li>
+</ul>
+</nav>
+<div class="border-t border-wash/[0.06] p-3">
+<dl class="glass-well mb-3 grid grid-cols-3 gap-1 rounded-[16px] p-2.5">
+<div class="px-1">
+<dt class="flex items-center gap-1 text-3xs text-muted-foreground">Projects</dt>
+<dd class="font-mono text-xs tabular-nums text-foreground">2.8k</dd>
+</div>
+<div class="px-1">
+<dt class="flex items-center gap-1 text-3xs text-muted-foreground">Downloads</dt>
+<dd class="font-mono text-xs tabular-nums text-foreground">135.5k</dd>
+</div>
+<div class="px-1">
+<dt class="flex items-center gap-1 text-3xs text-muted-foreground">
+<span class="relative flex h-1.5 w-1.5">
+<span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60">
+</span>
+<span class="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400">
+</span>
+</span>Online</dt>
+<dd class="font-mono text-xs tabular-nums text-foreground">32</dd>
+</div>
+</dl>
+<div class="flex items-center justify-between gap-2 px-1">
+<p class="text-2xs leading-snug text-muted-foreground">Runs on donations.<br>Donors get booster perks.</p>
+<a class="btn-liquid h-8 shrink-0 px-3 text-xs" href="/donate">Donate</a>
+</div>
+</div>
+</div>
+</aside>
+<div class="min-w-0 flex-1">
+<div class="lg:hidden">
+<div class="scrollbar-none -mx-3 flex gap-1 overflow-x-auto px-3 py-1">
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-white" tabindex="0">
+<span class="glass-tint absolute inset-0 -z-10 rounded-full" style="opacity: 1;">
+</span>All</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Roblox</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Discord</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>BO6</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>CS2</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>FiveM</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Fortnite</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>MW3</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Rust</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Valorant</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Minecraft</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>ImGui</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Apex Legends</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Dead by Daylight</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Escape From Tarkov</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Rainbow Six Siege</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Unturned</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>System</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Tools</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Graphics</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Audio</button>
+<button type="button" class="relative isolate shrink-0 rounded-full px-3.5 py-1.5 text-xs transition-colors text-muted-foreground" tabindex="0">
+<span class="absolute inset-0 -z-10 rounded-full bg-wash/[0.06]">
+</span>Misc</button>
+</div>
+</div>
+<div class="pb-12 pt-5 md:px-2 md:pt-6">
+<h1 class="sr-only">paste-co.de archive</h1>
+<div class="glass flex flex-wrap items-center gap-2 rounded-[22px] p-2 pl-4" style="opacity: 0; transform: translateY(12px);">
+<p class="text-sm text-muted-foreground">
+<span class="inline-block font-mono text-foreground" style="opacity: 0; transform: translateY(8px);">2 788</span> projects</p>
+<div class="ml-auto flex shrink-0 items-center gap-1.5">
+<button type="button" class="btn-icon-liquid w-auto gap-1.5 px-3 text-xs" id="radix-_r_b_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+<span class="text-foreground">Newest</span>
+<svg/>
+</button>
+<div class="glass-well flex h-9 items-center rounded-[14px] p-1" role="group" aria-label="Layout">
+<button type="button" class="relative isolate flex h-full items-center rounded-[10px] px-2.5 transition-colors text-foreground" aria-label="Grid view" aria-pressed="true">
+<span class="glass-pill absolute inset-0 -z-10 rounded-[10px]" style="opacity: 1;">
+</span>
+<svg/>
+</button>
+<button type="button" class="relative isolate flex h-full items-center rounded-[10px] px-2.5 transition-colors text-muted-foreground hover:text-foreground" aria-label="List view" aria-pressed="false">
+<svg/>
+</button>
+</div>
+</div>
+</div>
+<div class="glass mt-4 flex items-center gap-3 rounded-[20px] px-4 py-3" style="opacity: 0; transform: translateY(12px) scale(0.98);">
+<span class="glass-tint flex h-7 w-7 shrink-0 items-center justify-center rounded-[10px]">
+<svg/>
+</span>
+<p class="text-sm leading-snug text-foreground">10/10 pasters rate paste-co.de as the best archive | discord.gg/macrostack</p>
+</div>
+<a href="https://imgui.fun" target="_blank" rel="noopener sponsored noreferrer" class="glass group flex flex-col gap-4 overflow-hidden rounded-[24px] p-3 transition-transform duration-500 ease-spring hover:-translate-y-0.5 sm:flex-row sm:items-center sm:p-3 sm:pr-5 mt-4">
+<img alt="" width="1200" height="630" loading="lazy" class="aspect-[40/21] w-full shrink-0 rounded-[18px] object-cover shadow-[0_0_0_1px_var(--glass-hairline)] sm:w-60" src="/sponsors/imgui-fun.jpg">
+<div class="min-w-0 flex-1 px-1 pb-1 sm:block sm:px-0 sm:pb-0 hidden">
+<span class="text-3xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Sponsored · imgui.fun</span>
+<p class="mt-1 font-display text-lg font-medium leading-snug tracking-tight text-foreground">Dear ImGui menus with full C++ source</p>
+<p class="mt-1 line-clamp-2 text-sm text-muted-foreground">30+ designs · Visual Studio solution · DX11</p>
+</div>
+<span class="glass-tint mx-1 mb-1 inline-flex h-10 shrink-0 items-center justify-center gap-1.5 rounded-full px-5 text-sm font-medium transition-[filter] duration-300 group-hover:brightness-110 sm:m-0">Visit imgui.fun<svg/>
+</span>
+</a>
+<div class="mt-6">
+<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[2000px]:grid-cols-5 min-[2600px]:grid-cols-6">
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3242">
+<img alt="Preview of Luraph V15/14.7 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· rar</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3242">Luraph V15/14.7 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="12 downloads">
+<svg/>12</span>
+<span class="flex items-center gap-1" title="45 views">
+<svg/>45</span>
+<span title="15/11/2026">3d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Luraph V15/14.7 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_f_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3241">
+<img alt="Preview of IB2 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 2)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3241">IB2 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="9 downloads">
+<svg/>9</span>
+<span class="flex items-center gap-1" title="20 views">
+<svg/>20</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for IB2 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_h_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3240">
+<img alt="Preview of Obfuscator.io Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-emerald-300 light:text-emerald-700" title="Security scan: CLEAN (score 0)">CLEAN</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3240">Obfuscator.io Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="10 downloads">
+<svg/>10</span>
+<span class="flex items-center gap-1" title="13 views">
+<svg/>13</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Obfuscator.io Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_j_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3239">
+<img alt="Preview of XHider Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-emerald-300 light:text-emerald-700" title="Security scan: CLEAN (score 0)">CLEAN</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3239">XHider Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="8 downloads">
+<svg/>8</span>
+<span class="flex items-center gap-1" title="3 views">
+<svg/>3</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for XHider Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_l_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3238">
+<img alt="Preview of PSU 4.0/5.0 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-red-300 light:text-red-600" title="Security scan: INFO (score 0)">INFO</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3238">PSU 4.0/5.0 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for PSU 4.0/5.0 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_n_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3237">
+<img alt="Preview of IB1 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3237">IB1 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">Like 100% prob does not work</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="8 downloads">
+<svg/>8</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for IB1 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_p_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3236">
+<img alt="Preview of LuaQ  Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3236">LuaQ  Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="7 views">
+<svg/>7</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for LuaQ  Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_r_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3235">
+<img alt="Preview of Centurion Deobfusactor" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3235">Centurion Deobfusactor</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="7 views">
+<svg/>7</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Centurion Deobfusactor" class="btn-icon-liquid shrink-0" id="radix-_r_t_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3234">
+<img alt="Preview of Prometheus Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-red-300 light:text-red-600" title="Security scan: INFO (score 0)">INFO</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3234">Prometheus Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">WeAreDevs support prob idk</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="8 downloads">
+<svg/>8</span>
+<span class="flex items-center gap-1" title="8 views">
+<svg/>8</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Prometheus Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_v_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3233">
+<img alt="Preview of Goofyscator Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 1)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3233">Goofyscator Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Goofyscator Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_11_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3232">
+<img alt="Preview of Luraph V15 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-yellow-200 light:text-amber-700" title="Security scan: MEDIUM (score 13)">MEDIUM</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3232">Luraph V15 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="9 views">
+<svg/>9</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Luraph V15 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_13_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3231">
+<img alt="Preview of Clyde Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 4)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3231">Clyde Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Clyde Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_15_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3230">
+<img alt="Preview of FireServer" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-emerald-300 light:text-emerald-700" title="Security scan: CLEAN (score 0)">CLEAN</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/method</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3230">FireServer</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="15 views">
+<svg/>15</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for FireServer" class="btn-icon-liquid shrink-0" id="radix-_r_17_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3229">
+<img alt="Preview of Roblox Decryptor" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-emerald-300 light:text-emerald-700" title="Security scan: CLEAN (score 0)">CLEAN</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/external</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3229">Roblox Decryptor</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">very good credits to the person who made it i forgot because its been sitting  in my downloads for like over a week</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="9 downloads">
+<svg/>9</span>
+<span class="flex items-center gap-1" title="16 views">
+<svg/>16</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Roblox Decryptor" class="btn-icon-liquid shrink-0" id="radix-_r_19_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3228">
+<img alt="Preview of LuaObfuscator Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 3)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3228">LuaObfuscator Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">ChaoticEvil and ChaoticGood  support</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="3 views">
+<svg/>3</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for LuaObfuscator Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1b_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3227">
+<img alt="Preview of Hercules Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 8)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3227">Hercules Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="6 downloads">
+<svg/>6</span>
+<span class="flex items-center gap-1" title="3 views">
+<svg/>3</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Hercules Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1d_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3226">
+<img alt="Preview of IronVeil Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-sky-300 light:text-sky-700" title="Security scan: LOW (score 1)">LOW</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3226">IronVeil Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for IronVeil Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1f_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3225">
+<img alt="Preview of MoonSec Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-yellow-200 light:text-amber-700" title="Security scan: MEDIUM (score 3)">MEDIUM</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3225">MoonSec Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">idk if this is the one by tups thats very popular on github it might be</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for MoonSec Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1h_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3224">
+<img alt="Preview of Luraph v15.1 Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· rar</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3224">Luraph v15.1 Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">All errors are NOT fixed :sob:</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="10 downloads">
+<svg/>10</span>
+<span class="flex items-center gap-1" title="11 views">
+<svg/>11</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Luraph v15.1 Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1j_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3223">
+<img alt="Preview of LuAST Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3223">LuAST Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for LuAST Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1l_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3222">
+<img alt="Preview of Luraph V15/V14.x Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3222">Luraph V15/V14.x Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="2 views">
+<svg/>2</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Luraph V15/V14.x Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1n_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3221">
+<img alt="Preview of 77Fuscator Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· 7z</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3221">77Fuscator Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="7 downloads">
+<svg/>7</span>
+<span class="flex items-center gap-1" title="4 views">
+<svg/>4</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for 77Fuscator Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1p_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3220">
+<img alt="Preview of Rob Run Cheat" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">misc/source</span>
+<span class="shrink-0">· rar</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3220">Rob Run Cheat</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">Silent aim is dtc cuz server sided checks and the driver is shitty ig and uses kdmapper</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="47 downloads">
+<svg/>47</span>
+<span class="flex items-center gap-1" title="92 views">
+<svg/>92</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Rob Run Cheat" class="btn-icon-liquid shrink-0" id="radix-_r_1r_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+<article class="glass group relative isolate flex rounded-[26px] p-2 h-full flex-col" style="opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.94);">
+<a tabindex="-1" aria-hidden="true" class="relative block shrink-0 overflow-hidden rounded-[20px] bg-wash/[0.04] aspect-video w-full" href="/project/3219">
+<img alt="Preview of Fulcrum Deobfuscator" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-700 ease-liquid group-hover:scale-[1.07]" src="https://paste-co.de/brand/placeholder.svg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+<span class="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0_0_0_1px_rgb(var(--wash)/0.08)]">
+</span>
+<span class="glass-thick absolute right-2 top-2 rounded-full px-2 py-0.5 font-mono text-3xs uppercase tracking-wider transition-transform duration-500 ease-spring group-hover:scale-110 text-red-300 light:text-red-600" title="Security scan: INFO (score 0)">INFO</span>
+</a>
+<div class="flex min-w-0 flex-1 flex-col gap-2 px-2 pb-1 pt-3">
+<p class="flex min-w-0 items-center gap-1.5 font-mono text-2xs text-muted-foreground">
+<span class="truncate">roblox/script</span>
+<span class="shrink-0">· zip</span>
+</p>
+<h3 class="min-w-0">
+<a class="line-clamp-1 font-medium leading-snug text-card-foreground transition-colors hover:text-primary" href="/project/3219">Fulcrum Deobfuscator</a>
+</h3>
+<p class="text-sm leading-relaxed text-muted-foreground line-clamp-2">No description.</p>
+<div class="mt-auto flex items-center gap-3 pt-1 font-mono text-2xs text-muted-foreground">
+<span class="flex items-center gap-1" title="9 downloads">
+<svg/>9</span>
+<span class="flex items-center gap-1" title="14 views">
+<svg/>14</span>
+<span title="15/11/2026">4d</span>
+</div>
+<div class="relative z-20 flex items-center gap-1 pt-1.5">
+<button type="button" class="btn-liquid flex-1">
+<svg/>Download</button>
+<span class="flex items-center">
+<div class="relative">
+<div class="flex items-center gap-0.5">
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="+rep" aria-label="+rep">
+<svg/>
+<span>0</span>
+</button>
+<button type="button" class="inline-flex h-8 items-center gap-1 rounded-[11px] font-mono tabular-nums transition-[background-color,color,transform,border-radius] duration-500 ease-spring hover:rounded-[16px] active:scale-90 active:duration-100 [&amp;_svg]:transition-transform [&amp;_svg]:duration-500 [&amp;_svg]:ease-spring hover:[&amp;_svg]:-rotate-12 hover:[&amp;_svg]:scale-125 px-1.5 text-2xs border-wash/10 text-muted-foreground hover:bg-wash/10 hover:text-foreground" title="-rep" aria-label="-rep">
+<svg/>
+<span>0</span>
+</button>
+</div>
+</div>
+</span>
+<button type="button" aria-label="More options for Fulcrum Deobfuscator" class="btn-icon-liquid shrink-0" id="radix-_r_1t_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg/>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+<nav class="mt-10 flex flex-wrap items-center justify-between gap-3" aria-label="Pagination">
+<p class="font-mono text-xs text-muted-foreground">page 1 of 117</p>
+<div class="glass flex items-center gap-0.5 rounded-[20px] p-1.5">
+<button type="button" disabled="" class="btn-icon-liquid w-auto gap-1 px-3 text-xs disabled:pointer-events-none disabled:opacity-30">
+<svg/>Previous</button>
+<button type="button" aria-current="page" class="relative isolate h-9 min-w-9 rounded-[12px] px-2 font-mono text-xs transition-[color,transform] duration-300 ease-spring active:scale-90 text-white">
+<span class="glass-tint absolute inset-0 -z-10 rounded-[12px]" style="opacity: 1;">
+</span>1</button>
+<button type="button" class="relative isolate h-9 min-w-9 rounded-[12px] px-2 font-mono text-xs transition-[color,transform] duration-300 ease-spring active:scale-90 text-muted-foreground hover:text-foreground">2</button>
+<button type="button" class="relative isolate h-9 min-w-9 rounded-[12px] px-2 font-mono text-xs transition-[color,transform] duration-300 ease-spring active:scale-90 text-muted-foreground hover:text-foreground">3</button>
+<button type="button" class="relative isolate h-9 min-w-9 rounded-[12px] px-2 font-mono text-xs transition-[color,transform] duration-300 ease-spring active:scale-90 text-muted-foreground hover:text-foreground">4</button>
+<button type="button" class="relative isolate h-9 min-w-9 rounded-[12px] px-2 font-mono text-xs transition-[color,transform] duration-300 ease-spring active:scale-90 text-muted-foreground hover:text-foreground">5</button>
+<button type="button" class="btn-icon-liquid w-auto gap-1 px-3 text-xs disabled:pointer-events-none disabled:opacity-30">Next<svg/>
+</button>
+</div>
+</nav>
+</div>
+<footer class="glass mb-6 rounded-[28px] p-6 md:p-8">
+<div class="grid gap-10 md:grid-cols-[minmax(0,1fr)_auto]">
+<div class="max-w-2xl space-y-3">
+<h2 class="font-display text-sm text-foreground">About paste-co.de</h2>
+<p class="text-sm leading-relaxed text-muted-foreground">Paste-co.de is a specialized educational repository dedicated to game security research, modding, and software development. Our mission is to provide a central archive for community-contributed projects, enabling developers and researchers to study various implementation techniques in a safe, transparent environment.</p>
+<p class="text-sm leading-relaxed text-muted-foreground">Whether you're interested in Roblox internal/external development, Discord automation, or low-level system utilities, our catalog offers a diverse range of open-source and educational resources. By archiving these projects, we aim to preserve technical knowledge and foster a deeper understanding of how modern software interacts with game engines and operating systems. All content shared here is intended strictly for educational and research purposes.</p>
+</div>
+<div class="grid grid-cols-2 gap-x-12 gap-y-2 text-sm">
+<div class="flex flex-col gap-2">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Site</p>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/games">Game updates</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/community-offsets">Community offsets</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/submissions">Submissions</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/guides">Guides</a>
+<a href="https://discord.gg/macrostack" target="_blank" rel="noreferrer" class="text-muted-foreground transition-colors hover:text-foreground">Discord</a>
+</div>
+<div class="flex flex-col gap-2">
+<p class="font-display text-3xs uppercase tracking-widest text-muted-foreground">Legal</p>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/privacy">Privacy</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/terms">Terms</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/cookies">Cookies</a>
+<a class="text-muted-foreground transition-colors hover:text-foreground" href="/safety">Safety</a>
+</div>
+</div>
+</div>
+<p class="mt-10 text-xs text-muted-foreground">paste-co.de · For educational purposes only</p>
+</footer>
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</main>
+<div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events:none">
+<ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+</ol>
+</div>
+<iframe id="googlefcPresent" style="width: 0px; height: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; z-index: -1000; left: -1000px; top: -1000px; display: none;">
+</iframe>
+<next-route-announcer style="position: absolute;">
+</next-route-announcer>
