@@ -1,161 +1,165 @@
 <div align="center">
 
-# AI Website Cloner Template
+<img src="public/brand/icon.svg" width="76" height="76" alt="paste-co.de" />
 
-### Clone any website with one command
+# paste-co.de — Clone
 
-Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
+**Réplique statique complète** de l'archive de sources et du hub communautaire [paste-co.de](https://paste-co.de),
+reconstruite avec Next.js 16, React 19 et Tailwind CSS v4.
 
-**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5.5. Also supports Codex, Cursor, and OpenCode.**
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
-
-[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
-
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/JCodesMore/ai-website-cloner-template/badges/token-badge.json" alt="tokens" />
-
-  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
-
-<br />
-<sub><strong>SPONSORED BY</strong></sub>
-<br /><br />
-<a href="https://www.swiftproxy.net/?ref=JCodesMore"><img src="docs/assets/sponsors/swiftproxy-banner.webp" alt="Swiftproxy residential proxies for inspecting websites from 195+ locations" width="680" /></a>
-<br />
-<sub>Inspect and compare websites from any region with rotating or static residential IPs in 195+ locations, over HTTP(S) and SOCKS5. Free testing, plus 10% off with code <code>PROXY90</code>. <a href="https://www.swiftproxy.net/?ref=JCodesMore">Try&nbsp;Swiftproxy&nbsp;→</a></sub>
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 </div>
 
 ---
 
-## Demo
+## Aperçu
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
+| Archive | Fiche projet |
+| :---: | :---: |
+| ![Archive paste-co.de](docs/design-references/clone/readme-home.png) | ![Fiche projet](docs/design-references/clone/readme-project.png) |
+| **Game updates** | **Roblox** |
+| ![Game updates](docs/design-references/clone/readme-games.png) | ![Roblox](docs/design-references/clone/readme-roblox.png) |
 
-> Click the image above to watch the full demo on YouTube.
+<p align="center">
+  <img src="docs/design-references/clone/readme-mobile.png" alt="Vue mobile de l'archive" width="300" />
+  <br />
+  <sub>Rendu mobile — 390 px</sub>
+</p>
 
-## Quick Start
+## Le projet
 
-### 1. Set up your project
+Ce dépôt reproduit l'intégralité du site public **paste-co.de** : l'archive de projets, les fiches détaillées,
+le suivi des jeux et de leurs builds anti-triche, le hub Roblox, les guides, le forum, les outils communautaires
+et les pages légales.
 
-**Recommended: ask your agent.** Paste this into Codex, Claude Code, or your coding agent:
+L'objectif est la **fidélité visuelle et structurelle** : mêmes routes, mêmes contenus, mêmes assets, mêmes
+composants d'interface (header flottant, surfaces en verre, cartes, tableaux, onglets, modales), au pixel près,
+en desktop comme en mobile.
+
+- **2 788 projets** dans l'archive, avec recherche, filtres par catégorie, 5 tris, vue grille/liste et pagination par 24.
+- **27 jeux** suivis avec versions, dates de mise à jour, builds anti-triche et liens vers les sources.
+- **15 273 FFlags Roblox** et 394 offsets, chargés à la demande dans le hub Roblox.
+- **17 guides** longs (reverse engineering, offsets, injection, anti-triche, noyau Windows…).
+- **Forum complet** : 5 catégories, sujets, réponses, avatars Discord et horodatages.
+- **Outils communautaires** : offsets partagés, soumissions, demandes, scanner.
+- **Pages donateur** : dons, accès Tools / Proxy / MCP, états connecté/déconnecté.
+- **Pages légales** : confidentialité, conditions, cookies, sécurité — avec leur pied de page d'origine.
+- **UI** : thème clair/sombre, recherche globale avec résultats en direct, 404 personnalisée, responsive mobile-first.
+
+## Stack
+
+| Technologie | Usage |
+| --- | --- |
+| [Next.js 16](https://nextjs.org/) | App Router, routes dynamiques, rendu serveur |
+| [React 19](https://react.dev/) | Composants serveur et clients |
+| [TypeScript](https://www.typescriptlang.org/) | Mode strict, aucun `any` |
+| [Tailwind CSS 4](https://tailwindcss.com/) | Tokens oklch, thèmes et surfaces « glass » |
+| [shadcn/ui](https://ui.shadcn.com/) + [Base UI](https://base-ui.com/) | Primitives d'interface |
+| [Lucide](https://lucide.dev/) | Icônes, complétées par les SVG extraits du site |
+| Snapshots JSON | Données statiques, sans appel API à l'exécution |
+
+## Démarrage
+
+**Prérequis :** [Node.js](https://nodejs.org/) 24 ou supérieur.
+
+```bash
+npm install
+npm run dev
+```
+
+Ouvrir [http://localhost:3000](http://localhost:3000).
+
+### Scripts
+
+| Commande | Description |
+| --- | --- |
+| `npm run dev` | Serveur de développement |
+| `npm run build` | Build de production |
+| `npm run start` | Serveur de production |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | Vérification TypeScript |
+| `npm run check` | Lint + typecheck + build |
+
+## Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | Archive, catégories, tri, recherche et pagination |
+| `/games` | Versions des jeux et builds anti-triche |
+| `/roblox` | Offsets, FFlags, dumper, versions, téléchargements |
+| `/community-offsets` | Dumps d'offsets partagés par la communauté |
+| `/guides` · `/guides/[slug]` | Index et 17 guides |
+| `/forums` · `/forums/[category]` · `/forums/topic/[id]` | Forum, catégories et sujets |
+| `/project/[id]` · `/project/[id]/source` | Fiche projet et explorateur de sources |
+| `/submissions` · `/requests` · `/scanner` | Soumissions, demandes et scanner |
+| `/donate` | Dons et avantages donateur |
+| `/tools` · `/proxy` · `/mcp` | Outils réservés aux donateurs (démo) |
+| `/privacy` · `/terms` · `/cookies` · `/safety` | Pages légales |
+| `/community` | Redirection vers `/submissions` |
+
+## Structure
 
 ```text
-Set up https://github.com/JCodesMore/ai-website-cloner-template
-as a standalone project in a new folder on my computer.
-Ask me where to put it. Clone the repository, remove its origin remote,
-install dependencies, and run npm run check. Leave it ready for me
-to clone a website.
-```
-
-**Or create your own GitHub repository:**
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate)
-
-Give it a name and click **Create repository**. Then give your agent the new repository's link and ask it to clone it onto your computer, install dependencies, and run `npm run check`.
-
-### 2. Clone a website
-
-Open the project in your agent with browser access enabled. In Claude Code or Cursor, run:
-
-```text
-/clone-website https://example.com
-```
-
-Replace the URL with the website you want to recreate. Once it's built, ask your agent for any changes you want.
-
-## Supported Platforms
-
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 5.5 |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Base UI primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## How It Works
-
-The `/clone-website` skill follows four steps:
-
-1. **Map** — map source URLs to local routes and preserve existing work.
-2. **Observe** — inspect desktop/mobile pages, extract real assets and fonts, and exercise alternate states.
-3. **Build** — implement editable components and working interactions; delegate independent sections when useful.
-4. **Compare** — review source and local pages at matched sizes/states, repair visible differences, and run the production check.
-
-Framer pages and animated sites have focused inspection guidance for responsive variants, media, sticky scenes, and scroll/time-driven motion. Direct HTTP or asset tools handle extraction where practical; browser comparisons establish appearance and behavior. Deliverables include route mappings, run instructions, comparison screenshots, and any remaining gaps.
-
-## Use Cases
-
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
-
-## Not Intended For
-
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
-
-## Project Structure
-
-```
 src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    sites/<site>/   # Source-specific components and extracted SVGs
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
+  app/                  # Une route par dossier (App Router)
+  components/
+    site/               # Header, footer, cartes, tableaux, clients interactifs
+    ui/                 # Primitives shadcn/ui
+  content/              # Guides et pages légales (HTML nettoyé + métadonnées)
+  data/                 # Snapshots JSON : projets, jeux, Roblox, forum, recherche
+  lib/                  # Accès aux données, formatage, utilitaires
+  types/                # Interfaces TypeScript
 public/
-  sites/<site>/     # Source-specific images, fonts, videos, and other assets
+  brand/                # Logo et favicon
+  game-icons/           # Icônes des jeux extraites du site
+  sponsors/             # Bannière du sponsor
+  fonts/                # Polices du site
 docs/
-  research/<site>/  # Page brief, asset map, and inspection evidence
-  design-references/ # Screenshots
-.agents/skills/
-  clone-website/    # Canonical skill and inspection reference
-.claude/commands/
-  clone-website.md  # Thin Claude Code bridge
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
+  research/paste-co.de/ # Pages, CSS, API et captures du site source
+  design-references/    # Captures de vérification et rendu mobile
+scripts/pastecode/      # Scripts d'extraction et de miroir des assets
 ```
 
-## Commands
+## Données et fidélité
+
+Les données publiques du site source ont été capturées puis figées dans `src/data/` et `src/content/`.
+**Aucune requête n'est faite vers `paste-co.de` au runtime** : le clone fonctionne hors ligne, à l'exception
+des liens externes d'origine (Discord, téléchargements bruts, sources des projets).
+
+Les comparaisons visuelles ont été menées aux largeurs **912 / 1128 px** en desktop et **390 px** en mobile.
+Les captures de référence et les preuves d'inspection sont conservées dans `docs/`.
+
+## Limites assumées
+
+Ce dépôt est une **démonstration statique** du site, pas une réplique de son backend :
+
+- Les téléchargements, votes, signalements, uploads et connexions Discord passent par une modale `DemoAction`
+  ou par l'état « déconnecté » d'origine. Aucun binaire, fichier ou compte n'est créé.
+- Les zones réservées aux donateurs affichent leur page d'accès, sans débloquer de contenu.
+- L'explorateur de sources présente la structure et les métadonnées, sans contenu réel des archives.
+- Le graphique de trafic des projets est généré localement : les données d'origine ne sont pas publiques.
+- Les compteurs et horodatages reflètent le moment de la capture.
+
+## Déploiement
+
+Le projet se déploie tel quel sur [Vercel](https://vercel.com/) ou tout hôte Node.js :
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
+npm run build
+npm run start
 ```
 
-### If using docker
+## Avertissement
 
-```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
-```
+Ce projet est un exercice de reconstruction d'interface à but éducatif. Il n'est **ni affilié ni approuvé**
+par paste-co.de. La marque, les textes, les assets et les contenus appartiennent à leurs propriétaires respectifs.
+Aucun binaire de triche n'est distribué par ce dépôt ; les actions sensibles sont volontairement neutralisées.
 
-## Agent Support
+## Licence
 
-The project keeps one portable Agent Skill at `.agents/skills/clone-website/`. Codex, Cursor, and OpenCode read it directly. Claude Code uses the small command bridge at `.claude/commands/clone-website.md` so `/clone-website` and its arguments continue to work without exposing a duplicate skill to the other agents.
-
-## Star History
-
-![Star History Chart](docs/assets/star-history.png)
-
-## License
-
-MIT
+Code sous [MIT](LICENSE). Les contenus et assets du site original restent la propriété de leurs auteurs.

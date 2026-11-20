@@ -1,27 +1,26 @@
 {
-  "name": "ai-website-clone-template",
-  "version": "0.6.1",
+  "name": "paste-co-de-clone",
+  "version": "1.0.0",
   "private": true,
-  "description": "Clone any website into a clean, modern Next.js codebase using AI coding agents",
-  "author": "JCodesMore",
+  "description": "Static, pixel-accurate clone of paste-co.de built with Next.js 16 and Tailwind CSS 4",
+  "author": "L1m00ns",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JCodesMore/ai-website-cloner-template.git"
+    "url": "https://github.com/l1m00ns/WebsiteClone1.git"
   },
-  "homepage": "https://github.com/JCodesMore/ai-website-cloner-template",
+  "homepage": "https://github.com/l1m00ns/WebsiteClone1",
   "bugs": {
-    "url": "https://github.com/JCodesMore/ai-website-cloner-template/issues"
+    "url": "https://github.com/l1m00ns/WebsiteClone1/issues"
   },
   "keywords": [
-    "claude-code",
-    "website-clone",
-    "reverse-engineering",
     "nextjs",
-    "ai",
-    "template",
+    "react",
+    "typescript",
     "tailwindcss",
-    "shadcn-ui"
+    "website-clone",
+    "game-archive",
+    "paste-co-de"
   ],
   "engines": {
     "node": ">=24"
